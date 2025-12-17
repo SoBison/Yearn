@@ -1,0 +1,7 @@
+module CLibretro {
+    header "libretro.h"
+    header "static_cores.h"  // 启用带前缀的多核心符号声明
+    // header "static_cores_simple.h"  // 禁用：现在使用带前缀的多核心模式
+    export *
+}
+

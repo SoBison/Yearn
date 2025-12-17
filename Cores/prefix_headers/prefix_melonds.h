@@ -1,0 +1,26 @@
+// Symbol prefix for melonds core - AUTO GENERATED
+#define retro_init melonds_retro_init
+#define retro_deinit melonds_retro_deinit
+#define retro_api_version melonds_retro_api_version
+#define retro_get_system_info melonds_retro_get_system_info
+#define retro_get_system_av_info melonds_retro_get_system_av_info
+#define retro_set_environment melonds_retro_set_environment
+#define retro_set_video_refresh melonds_retro_set_video_refresh
+#define retro_set_audio_sample melonds_retro_set_audio_sample
+#define retro_set_audio_sample_batch melonds_retro_set_audio_sample_batch
+#define retro_set_input_poll melonds_retro_set_input_poll
+#define retro_set_input_state melonds_retro_set_input_state
+#define retro_reset melonds_retro_reset
+#define retro_run melonds_retro_run
+#define retro_load_game melonds_retro_load_game
+#define retro_load_game_special melonds_retro_load_game_special
+#define retro_unload_game melonds_retro_unload_game
+#define retro_serialize_size melonds_retro_serialize_size
+#define retro_serialize melonds_retro_serialize
+#define retro_unserialize melonds_retro_unserialize
+#define retro_get_memory_data melonds_retro_get_memory_data
+#define retro_get_memory_size melonds_retro_get_memory_size
+#define retro_get_region melonds_retro_get_region
+#define retro_cheat_reset melonds_retro_cheat_reset
+#define retro_cheat_set melonds_retro_cheat_set
+#define retro_set_controller_port_device melonds_retro_set_controller_port_device

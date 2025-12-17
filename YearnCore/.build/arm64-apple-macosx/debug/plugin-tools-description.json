@@ -1,0 +1,453 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.YearnCore-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/ugreen/Desktop/work/Yearn/YearnCore/.build/arm64-apple-macosx/debug/YearnCore.build/sources",
+      "importPath" : "/Users/ugreen/Desktop/work/Yearn/YearnCore/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/Audio/AudioBuffer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/Audio/AudioEngine.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/Emulator/EmulatorManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/Emulator/EmulatorState.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/Input/InputManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/Input/VirtualController.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/Libretro/CoreAdapter.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/Libretro/LibretroBridge.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/Libretro/LibretroTypes.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/SaveState/SaveStateManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/Video/MetalView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/Video/VideoBuffer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/Video/VideoRenderer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/YearnCore.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ugreen/Desktop/work/Yearn/YearnCore/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ugreen/Desktop/work/Yearn/YearnCore/.build/arm64-apple-macosx/debug/CLibretro.build/CLibretro.c.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ugreen/Desktop/work/Yearn/YearnCore/.build/arm64-apple-macosx/debug/YearnCore.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "YearnCore",
+      "moduleOutputPath" : "/Users/ugreen/Desktop/work/Yearn/YearnCore/.build/arm64-apple-macosx/debug/Modules/YearnCore.swiftmodule",
+      "objects" : [
+        "/Users/ugreen/Desktop/work/Yearn/YearnCore/.build/arm64-apple-macosx/debug/YearnCore.build/AudioBuffer.swift.o",
+        "/Users/ugreen/Desktop/work/Yearn/YearnCore/.build/arm64-apple-macosx/debug/YearnCore.build/AudioEngine.swift.o",
+        "/Users/ugreen/Desktop/work/Yearn/YearnCore/.build/arm64-apple-macosx/debug/YearnCore.build/EmulatorManager.swift.o",
+        "/Users/ugreen/Desktop/work/Yearn/YearnCore/.build/arm64-apple-macosx/debug/YearnCore.build/EmulatorState.swift.o",
+        "/Users/ugreen/Desktop/work/Yearn/YearnCore/.build/arm64-apple-macosx/debug/YearnCore.build/InputManager.swift.o",
+        "/Users/ugreen/Desktop/work/Yearn/YearnCore/.build/arm64-apple-macosx/debug/YearnCore.build/VirtualController.swift.o",
+        "/Users/ugreen/Desktop/work/Yearn/YearnCore/.build/arm64-apple-macosx/debug/YearnCore.build/CoreAdapter.swift.o",
+        "/Users/ugreen/Desktop/work/Yearn/YearnCore/.build/arm64-apple-macosx/debug/YearnCore.build/LibretroBridge.swift.o",
+        "/Users/ugreen/Desktop/work/Yearn/YearnCore/.build/arm64-apple-macosx/debug/YearnCore.build/LibretroTypes.swift.o",
+        "/Users/ugreen/Desktop/work/Yearn/YearnCore/.build/arm64-apple-macosx/debug/YearnCore.build/SaveStateManager.swift.o",
+        "/Users/ugreen/Desktop/work/Yearn/YearnCore/.build/arm64-apple-macosx/debug/YearnCore.build/MetalView.swift.o",
+        "/Users/ugreen/Desktop/work/Yearn/YearnCore/.build/arm64-apple-macosx/debug/YearnCore.build/VideoBuffer.swift.o",
+        "/Users/ugreen/Desktop/work/Yearn/YearnCore/.build/arm64-apple-macosx/debug/YearnCore.build/VideoRenderer.swift.o",
+        "/Users/ugreen/Desktop/work/Yearn/YearnCore/.build/arm64-apple-macosx/debug/YearnCore.build/YearnCore.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/ugreen/Desktop/work/Yearn/YearnCore/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j14",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-Xcc",
+        "-fmodule-map-file=/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/CLibretro/include/module.modulemap",
+        "-Xcc",
+        "-I",
+        "-Xcc",
+        "/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/CLibretro/include",
+        "-module-cache-path",
+        "/Users/ugreen/Desktop/work/Yearn/YearnCore/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/ugreen/Desktop/work/Yearn/YearnCore/.build/arm64-apple-macosx/debug/YearnCore.build/include/YearnCore-Swift.h",
+        "-swift-version",
+        "5",
+        "-enable-experimental-feature",
+        "StrictConcurrency",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "yearncore"
+      ],
+      "outputFileMapPath" : "/Users/ugreen/Desktop/work/Yearn/YearnCore/.build/arm64-apple-macosx/debug/YearnCore.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ugreen/Desktop/work/Yearn/YearnCore/.build/arm64-apple-macosx/debug/YearnCore.build/AudioBuffer.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ugreen/Desktop/work/Yearn/YearnCore/.build/arm64-apple-macosx/debug/YearnCore.build/AudioEngine.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ugreen/Desktop/work/Yearn/YearnCore/.build/arm64-apple-macosx/debug/YearnCore.build/EmulatorManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ugreen/Desktop/work/Yearn/YearnCore/.build/arm64-apple-macosx/debug/YearnCore.build/EmulatorState.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ugreen/Desktop/work/Yearn/YearnCore/.build/arm64-apple-macosx/debug/YearnCore.build/InputManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ugreen/Desktop/work/Yearn/YearnCore/.build/arm64-apple-macosx/debug/YearnCore.build/VirtualController.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ugreen/Desktop/work/Yearn/YearnCore/.build/arm64-apple-macosx/debug/YearnCore.build/CoreAdapter.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ugreen/Desktop/work/Yearn/YearnCore/.build/arm64-apple-macosx/debug/YearnCore.build/LibretroBridge.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ugreen/Desktop/work/Yearn/YearnCore/.build/arm64-apple-macosx/debug/YearnCore.build/LibretroTypes.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ugreen/Desktop/work/Yearn/YearnCore/.build/arm64-apple-macosx/debug/YearnCore.build/SaveStateManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ugreen/Desktop/work/Yearn/YearnCore/.build/arm64-apple-macosx/debug/YearnCore.build/MetalView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ugreen/Desktop/work/Yearn/YearnCore/.build/arm64-apple-macosx/debug/YearnCore.build/VideoBuffer.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ugreen/Desktop/work/Yearn/YearnCore/.build/arm64-apple-macosx/debug/YearnCore.build/VideoRenderer.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ugreen/Desktop/work/Yearn/YearnCore/.build/arm64-apple-macosx/debug/YearnCore.build/YearnCore.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ugreen/Desktop/work/Yearn/YearnCore/.build/arm64-apple-macosx/debug/Modules/YearnCore.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/Audio/AudioBuffer.swift",
+        "/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/Audio/AudioEngine.swift",
+        "/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/Emulator/EmulatorManager.swift",
+        "/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/Emulator/EmulatorState.swift",
+        "/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/Input/InputManager.swift",
+        "/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/Input/VirtualController.swift",
+        "/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/Libretro/CoreAdapter.swift",
+        "/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/Libretro/LibretroBridge.swift",
+        "/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/Libretro/LibretroTypes.swift",
+        "/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/SaveState/SaveStateManager.swift",
+        "/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/Video/MetalView.swift",
+        "/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/Video/VideoBuffer.swift",
+        "/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/Video/VideoRenderer.swift",
+        "/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/YearnCore.swift"
+      ],
+      "tempsPath" : "/Users/ugreen/Desktop/work/Yearn/YearnCore/.build/arm64-apple-macosx/debug/YearnCore.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "YearnCore" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "YearnCore",
+      "-package-name",
+      "yearncore",
+      "-c",
+      "/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/Audio/AudioBuffer.swift",
+      "/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/Audio/AudioEngine.swift",
+      "/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/Emulator/EmulatorManager.swift",
+      "/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/Emulator/EmulatorState.swift",
+      "/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/Input/InputManager.swift",
+      "/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/Input/VirtualController.swift",
+      "/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/Libretro/CoreAdapter.swift",
+      "/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/Libretro/LibretroBridge.swift",
+      "/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/Libretro/LibretroTypes.swift",
+      "/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/SaveState/SaveStateManager.swift",
+      "/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/Video/MetalView.swift",
+      "/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/Video/VideoBuffer.swift",
+      "/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/Video/VideoRenderer.swift",
+      "/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/YearnCore.swift",
+      "-I",
+      "/Users/ugreen/Desktop/work/Yearn/YearnCore/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/ugreen/Desktop/work/Yearn/YearnCore/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j14",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-Xcc",
+      "-fmodule-map-file=/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/CLibretro/include/module.modulemap",
+      "-Xcc",
+      "-I",
+      "-Xcc",
+      "/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/CLibretro/include",
+      "-module-cache-path",
+      "/Users/ugreen/Desktop/work/Yearn/YearnCore/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/ugreen/Desktop/work/Yearn/YearnCore/.build/arm64-apple-macosx/debug/YearnCore.build/include/YearnCore-Swift.h",
+      "-swift-version",
+      "5",
+      "-enable-experimental-feature",
+      "StrictConcurrency",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "yearncore",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "CLibretro" : [
+
+    ],
+    "YearnCore" : [
+      "CLibretro"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/ugreen/Desktop/work/Yearn/YearnCore/.build/arm64-apple-macosx/debug/YearnCore.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/Audio/AudioBuffer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/Audio/AudioEngine.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/Emulator/EmulatorManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/Emulator/EmulatorState.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/Input/InputManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/Input/VirtualController.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/Libretro/CoreAdapter.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/Libretro/LibretroBridge.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/Libretro/LibretroTypes.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/SaveState/SaveStateManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/Video/MetalView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/Video/VideoBuffer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/Video/VideoRenderer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/YearnCore.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/ugreen/Desktop/work/Yearn/YearnCore/.build/arm64-apple-macosx/debug/YearnCore.build/sources"
+    },
+    "/Users/ugreen/Desktop/work/Yearn/YearnCore/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/ugreen/Desktop/work/Yearn/YearnCore/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}

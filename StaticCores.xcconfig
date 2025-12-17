@@ -1,0 +1,21 @@
+// StaticCores.xcconfig
+// Configuration for linking static libretro cores
+
+// Enable static cores
+STATIC_CORES_ENABLED = 1
+
+// Swift compiler flags
+OTHER_SWIFT_FLAGS = $(inherited) -DSTATIC_CORES_ENABLED
+
+// C/Objective-C preprocessor macros
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) STATIC_CORES_ENABLED=1
+
+// Library search paths - point to the StaticCores directory
+LIBRARY_SEARCH_PATHS = $(inherited) "$(SRCROOT)/Yearn/Resources/StaticCores"
+
+// Framework search paths - point to the Frameworks directory
+FRAMEWORK_SEARCH_PATHS = $(inherited) "$(SRCROOT)/Yearn/Resources/Frameworks"
+
+// Link C++ standard library (required by most cores)
+OTHER_LDFLAGS = $(inherited) -lc++ -lz
+

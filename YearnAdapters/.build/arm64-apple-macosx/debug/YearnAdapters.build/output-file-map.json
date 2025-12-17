@@ -1,0 +1,75 @@
+{
+  "": {
+    "swift-dependencies": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnAdapters.build/master.swiftdeps"
+  },
+  "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/Sources/YearnAdapters/GBA/GBAAdapter.swift": {
+    "dependencies": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnAdapters.build/GBAAdapter.d",
+    "object": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnAdapters.build/GBAAdapter.swift.o",
+    "swiftmodule": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnAdapters.build/GBAAdapter~partial.swiftmodule",
+    "swift-dependencies": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnAdapters.build/GBAAdapter.swiftdeps",
+    "diagnostics": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnAdapters.build/GBAAdapter.dia"
+  },
+  "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/Sources/YearnAdapters/GBC/GBCAdapter.swift": {
+    "dependencies": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnAdapters.build/GBCAdapter.d",
+    "object": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnAdapters.build/GBCAdapter.swift.o",
+    "swiftmodule": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnAdapters.build/GBCAdapter~partial.swiftmodule",
+    "swift-dependencies": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnAdapters.build/GBCAdapter.swiftdeps",
+    "diagnostics": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnAdapters.build/GBCAdapter.dia"
+  },
+  "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/Sources/YearnAdapters/Genesis/GenesisAdapter.swift": {
+    "dependencies": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnAdapters.build/GenesisAdapter.d",
+    "object": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnAdapters.build/GenesisAdapter.swift.o",
+    "swiftmodule": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnAdapters.build/GenesisAdapter~partial.swiftmodule",
+    "swift-dependencies": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnAdapters.build/GenesisAdapter.swiftdeps",
+    "diagnostics": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnAdapters.build/GenesisAdapter.dia"
+  },
+  "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/Sources/YearnAdapters/N64/N64Adapter.swift": {
+    "dependencies": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnAdapters.build/N64Adapter.d",
+    "object": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnAdapters.build/N64Adapter.swift.o",
+    "swiftmodule": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnAdapters.build/N64Adapter~partial.swiftmodule",
+    "swift-dependencies": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnAdapters.build/N64Adapter.swiftdeps",
+    "diagnostics": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnAdapters.build/N64Adapter.dia"
+  },
+  "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/Sources/YearnAdapters/NDS/NDSAdapter.swift": {
+    "dependencies": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnAdapters.build/NDSAdapter.d",
+    "object": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnAdapters.build/NDSAdapter.swift.o",
+    "swiftmodule": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnAdapters.build/NDSAdapter~partial.swiftmodule",
+    "swift-dependencies": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnAdapters.build/NDSAdapter.swiftdeps",
+    "diagnostics": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnAdapters.build/NDSAdapter.dia"
+  },
+  "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/Sources/YearnAdapters/NES/NESAdapter.swift": {
+    "dependencies": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnAdapters.build/NESAdapter.d",
+    "object": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnAdapters.build/NESAdapter.swift.o",
+    "swiftmodule": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnAdapters.build/NESAdapter~partial.swiftmodule",
+    "swift-dependencies": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnAdapters.build/NESAdapter.swiftdeps",
+    "diagnostics": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnAdapters.build/NESAdapter.dia"
+  },
+  "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/Sources/YearnAdapters/PS1/PS1Adapter.swift": {
+    "dependencies": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnAdapters.build/PS1Adapter.d",
+    "object": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnAdapters.build/PS1Adapter.swift.o",
+    "swiftmodule": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnAdapters.build/PS1Adapter~partial.swiftmodule",
+    "swift-dependencies": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnAdapters.build/PS1Adapter.swiftdeps",
+    "diagnostics": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnAdapters.build/PS1Adapter.dia"
+  },
+  "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/Sources/YearnAdapters/Protocol/LibretroAdapter.swift": {
+    "dependencies": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnAdapters.build/LibretroAdapter.d",
+    "object": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnAdapters.build/LibretroAdapter.swift.o",
+    "swiftmodule": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnAdapters.build/LibretroAdapter~partial.swiftmodule",
+    "swift-dependencies": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnAdapters.build/LibretroAdapter.swiftdeps",
+    "diagnostics": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnAdapters.build/LibretroAdapter.dia"
+  },
+  "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/Sources/YearnAdapters/SNES/SNESAdapter.swift": {
+    "dependencies": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnAdapters.build/SNESAdapter.d",
+    "object": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnAdapters.build/SNESAdapter.swift.o",
+    "swiftmodule": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnAdapters.build/SNESAdapter~partial.swiftmodule",
+    "swift-dependencies": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnAdapters.build/SNESAdapter.swiftdeps",
+    "diagnostics": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnAdapters.build/SNESAdapter.dia"
+  },
+  "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/Sources/YearnAdapters/YearnAdapters.swift": {
+    "dependencies": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnAdapters.build/YearnAdapters.d",
+    "object": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnAdapters.build/YearnAdapters.swift.o",
+    "swiftmodule": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnAdapters.build/YearnAdapters~partial.swiftmodule",
+    "swift-dependencies": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnAdapters.build/YearnAdapters.swiftdeps",
+    "diagnostics": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnAdapters.build/YearnAdapters.dia"
+  }
+}

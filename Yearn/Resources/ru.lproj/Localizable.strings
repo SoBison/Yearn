@@ -1,0 +1,629 @@
+/* 
+  Localizable.strings (Русский)
+  Yearn
+*/
+
+// MARK: - General
+"app.name" = "Yearn";
+"common.done" = "Готово";
+"common.cancel" = "Отмена";
+"common.save" = "Сохранить";
+"common.delete" = "Удалить";
+"common.edit" = "Редактировать";
+"common.ok" = "OK";
+"common.error" = "Ошибка";
+"common.success" = "Успешно";
+"common.loading" = "Загрузка...";
+"common.search" = "Поиск";
+"common.settings" = "Настройки";
+"common.back" = "Назад";
+"common.next" = "Далее";
+"common.skip" = "Пропустить";
+"common.retry" = "Повторить";
+"common.close" = "Закрыть";
+"common.share" = "Поделиться";
+"common.favorite" = "В избранное";
+"common.unfavorite" = "Из избранного";
+
+// MARK: - Tab Bar
+"tab.library" = "Библиотека";
+"tab.settings" = "Настройки";
+
+// MARK: - Library
+"library.title" = "Библиотека игр";
+"library.empty.title" = "Нет игр";
+"library.empty.message" = "Импортируйте ROM-файлы, чтобы начать играть";
+"library.import" = "Импорт ROM";
+"library.import.folder" = "Импорт папки";
+"library.recent" = "Недавно сыгранные";
+"library.favorites" = "Избранное";
+"library.all" = "Все игры";
+"library.search.placeholder" = "Поиск игр...";
+"library.sort.name" = "Название";
+"library.sort.date" = "Дата добавления";
+"library.sort.lastPlayed" = "Последняя игра";
+"library.sort.system" = "Система";
+"library.filter.all" = "Все системы";
+"library.game.play" = "Играть";
+"library.game.delete" = "Удалить игру";
+"library.game.delete.confirm" = "Вы уверены, что хотите удалить «%@»? Это действие нельзя отменить.";
+"library.game.info" = "Информация об игре";
+"library.game.cover" = "Изменить обложку";
+
+// MARK: - Game Systems
+"system.nes" = "Nintendo Entertainment System";
+"system.nes.short" = "NES";
+"system.snes" = "Super Nintendo";
+"system.snes.short" = "SNES";
+"system.gb" = "Game Boy";
+"system.gbc" = "Game Boy Color";
+"system.gbc.short" = "GB/GBC";
+"system.gba" = "Game Boy Advance";
+"system.gba.short" = "GBA";
+"system.n64" = "Nintendo 64";
+"system.n64.short" = "N64";
+"system.nds" = "Nintendo DS";
+"system.nds.short" = "NDS";
+"system.genesis" = "Sega Genesis / Mega Drive";
+"system.genesis.short" = "Genesis";
+"system.ps1" = "PlayStation";
+"system.ps1.short" = "PS1";
+
+// MARK: - Emulation
+"emulation.pause" = "Пауза";
+"emulation.resume" = "Продолжить";
+"emulation.reset" = "Сброс";
+"emulation.quit" = "Выйти из игры";
+"emulation.quit.confirm" = "Вы уверены, что хотите выйти? Несохранённый прогресс будет потерян.";
+"emulation.saveState" = "Сохранить состояние";
+"emulation.loadState" = "Загрузить состояние";
+"emulation.quickSave" = "Быстрое сохранение";
+"emulation.quickLoad" = "Быстрая загрузка";
+"emulation.screenshot" = "Скриншот";
+"emulation.screenshot.saved" = "Скриншот сохранён";
+"emulation.fastForward" = "Ускорение";
+"emulation.slowMotion" = "Замедление";
+"emulation.speed" = "Скорость";
+"emulation.cheats" = "Читы";
+"emulation.rewind" = "Перемотка";
+
+// MARK: - Save States
+"saveStates.title" = "Сохранения";
+"saveStates.slot" = "Слот %d";
+"saveStates.quickSave" = "Быстрое сохранение";
+"saveStates.empty" = "Пусто";
+"saveStates.noStates" = "Нет сохранений";
+"saveStates.noStates.message" = "Сохраните прогресс, чтобы продолжить позже";
+"saveStates.delete" = "Удалить сохранение";
+"saveStates.delete.confirm" = "Вы уверены, что хотите удалить это сохранение?";
+"saveStates.load" = "Загрузить";
+"saveStates.save" = "Сохранить";
+
+// MARK: - Cheats
+"cheats.title" = "Читы";
+"cheats.add" = "Добавить чит";
+"cheats.edit" = "Редактировать чит";
+"cheats.name" = "Название";
+"cheats.code" = "Код";
+"cheats.format" = "Формат";
+"cheats.enabled" = "Включено";
+"cheats.empty" = "Нет читов";
+"cheats.empty.message" = "Добавьте чит-коды для улучшения игрового процесса";
+"cheats.format.gameGenie" = "Game Genie";
+"cheats.format.actionReplay" = "Action Replay";
+"cheats.format.gameShark" = "GameShark";
+"cheats.format.codeBreaker" = "Code Breaker";
+"cheats.format.raw" = "Raw (Адрес:Значение)";
+"cheats.invalid" = "Неверный чит-код";
+
+// MARK: - Settings
+"settings.title" = "Настройки";
+"settings.appearance" = "Оформление";
+"settings.general" = "Основные";
+"settings.display" = "Экран";
+"settings.audio" = "Звук";
+"settings.controls" = "Управление";
+"settings.saves" = "Сохранения";
+"settings.cores" = "Ядра эмулятора";
+"settings.storage" = "Хранилище";
+"settings.about" = "О приложении";
+"settings.accessibility" = "Универсальный доступ";
+
+// MARK: - General Settings
+"settings.general.haptics" = "Тактильная отдача";
+"settings.general.haptics.desc" = "Тактильная отдача при нажатии виртуальных кнопок.";
+"settings.general.keepAwake" = "Не выключать экран";
+"settings.general.showFPS" = "Показывать FPS";
+"settings.general.language" = "Язык";
+"settings.general.language.system" = "Системный";
+"language.available" = "Доступные языки";
+"language.restart.hint" = "Перезапустите приложение для применения изменений языка.";
+"settings.general.language" = "Язык";
+
+// MARK: - Display Settings
+"settings.display.filter" = "Видеофильтр";
+"settings.display.filter.none" = "Нет (пиксель в пиксель)";
+"settings.display.filter.smooth" = "Сглаживание";
+"settings.display.filter.crt" = "CRT";
+"settings.display.filter.lcd" = "LCD";
+"settings.display.aspectRatio" = "Соотношение сторон";
+"settings.display.aspectRatio.native" = "Оригинальное";
+"settings.display.aspectRatio.fill" = "На весь экран";
+"settings.display.aspectRatio.4:3" = "4:3";
+"settings.display.aspectRatio.16:9" = "16:9";
+
+// MARK: - Audio Settings
+"settings.audio.volume" = "Громкость";
+"settings.audio.mute" = "Без звука";
+
+// MARK: - Controller Settings
+"settings.controls.title" = "Настройки управления";
+"settings.controls.virtual" = "Виртуальный контроллер";
+"settings.controls.opacity" = "Прозрачность";
+"settings.controls.size" = "Размер";
+"settings.controls.haptics" = "Тактильная отдача";
+"settings.controls.labels" = "Показывать подписи кнопок";
+"settings.controls.autoHide" = "Автоскрытие при бездействии";
+"settings.controls.skin" = "Оформление контроллера";
+"settings.controls.vibration" = "Вибрация";
+"settings.controls.mapping" = "Назначение кнопок";
+"settings.controls.connected" = "Подключённые контроллеры";
+"settings.controls.noControllers" = "Контроллеры не подключены";
+"settings.controls.turbo" = "Настройки турбо";
+"settings.controls.preset.compact" = "Компактный (маленькие руки)";
+"settings.controls.preset.default" = "По умолчанию";
+"settings.controls.preset.large" = "Большой (большие руки)";
+
+// MARK: - Controller Skins
+"skin.default" = "По умолчанию";
+"skin.minimal" = "Минимальный";
+"skin.retro" = "Ретро";
+"skin.neon" = "Неон";
+"skin.classicNintendo" = "Классический Nintendo";
+"skin.playStation" = "PlayStation";
+"skin.xbox" = "Xbox";
+"skin.transparent" = "Прозрачный";
+"skin.darkMode" = "Тёмный режим";
+"skin.custom" = "Пользовательское";
+"skin.create" = "Создать своё оформление";
+"skin.builtin" = "Встроенный";
+"skin.category.standard" = "Стандартные";
+"skin.category.themed" = "Тематические";
+"skin.category.special" = "Особые";
+"skin.category.custom" = "Пользовательские";
+"skin.themed" = "Тематические";
+"skin.special" = "Особые";
+
+// MARK: - Save Settings
+"settings.saves.autoSave" = "Автосохранение";
+"settings.saves.autoSave.interval" = "Интервал автосохранения";
+"settings.saves.autoSave.interval.30sec" = "30 секунд";
+"settings.saves.autoSave.interval.1min" = "1 минута";
+"settings.saves.autoSave.interval.2min" = "2 минуты";
+"settings.saves.autoSave.interval.5min" = "5 минут";
+"settings.saves.autoSave.interval.10min" = "10 минут";
+"settings.saves.icloud" = "Синхронизация iCloud";
+"settings.saves.icloud.description" = "Синхронизация сохранений между устройствами";
+
+// MARK: - Storage
+"settings.storage.used" = "Использовано";
+"settings.storage.roms" = "ROM-файлы";
+"settings.storage.saves" = "Сохранения";
+"settings.storage.artwork" = "Обложки";
+"settings.storage.clearCache" = "Очистить кэш";
+"settings.storage.clearCache.confirm" = "Будут удалены кэшированные обложки и временные файлы.";
+
+// MARK: - About
+"settings.about.version" = "Версия";
+"settings.about.licenses" = "Лицензии открытого ПО";
+"settings.about.sourceCode" = "Исходный код";
+"settings.about.rate" = "Оценить в App Store";
+"settings.about.contact" = "Связаться с нами";
+
+// MARK: - Accessibility
+"settings.accessibility.reduceMotion" = "Уменьшить движение";
+"settings.accessibility.highContrast" = "Высокая контрастность";
+"settings.accessibility.largeButtons" = "Большие кнопки";
+"settings.accessibility.buttonLabels" = "Показывать подписи кнопок";
+"settings.accessibility.voiceOver" = "Подсказки VoiceOver";
+"settings.accessibility.holdToConfirm" = "Удерживать для подтверждения";
+"settings.accessibility.autoHide" = "Автоскрытие управления";
+"settings.accessibility.hideDelay" = "Задержка скрытия";
+
+// MARK: - Speed
+"speed.title" = "Скорость эмуляции";
+"speed.0.25x" = "0.25x (медленно)";
+"speed.0.5x" = "0.5x (медленно)";
+"speed.0.75x" = "0.75x";
+"speed.1x" = "1x (нормально)";
+"speed.1.5x" = "1.5x";
+"speed.2x" = "2x";
+"speed.3x" = "3x";
+"speed.4x" = "4x";
+"speed.8x" = "8x";
+"speed.unlimited" = "Без ограничений";
+"speed.fastForward" = "Скорость ускорения";
+"speed.slowMotion" = "Скорость замедления";
+"speed.holdToFF" = "Удерживать для ускорения";
+"speed.indicator" = "Показывать индикатор скорости";
+
+// MARK: - Turbo
+"turbo.title" = "Настройки турбо";
+"turbo.enable" = "Включить турбо";
+"turbo.speed" = "Скорость турбо";
+"turbo.speed.slow" = "Медленно (10 Гц)";
+"turbo.speed.normal" = "Нормально (20 Гц)";
+"turbo.speed.fast" = "Быстро (30 Гц)";
+"turbo.speed.veryFast" = "Очень быстро (50 Гц)";
+"turbo.faceButtons" = "Основные кнопки";
+"turbo.shoulderButtons" = "Плечевые кнопки";
+"turbo.clearAll" = "Сбросить все турбо";
+
+// MARK: - Recording
+"recording.title" = "Запись";
+"recording.start" = "Начать запись";
+"recording.stop" = "Остановить запись";
+"recording.saved" = "Запись сохранена";
+"recording.saved.message" = "Игровой процесс записан. Что вы хотите сделать?";
+"recording.saveToPhotos" = "Сохранить в Фото";
+"recording.discard" = "Удалить";
+"recording.keepInApp" = "Оставить в приложении";
+"recording.settings" = "Настройки записи";
+"recording.includeAudio" = "Включить звук игры";
+"recording.includeMic" = "Включить микрофон";
+"recording.quality" = "Качество видео";
+"recording.quality.low" = "Низкое (480p)";
+"recording.quality.medium" = "Среднее (720p)";
+"recording.quality.high" = "Высокое (1080p)";
+"recording.list" = "Сохранённые записи";
+"recording.noRecordings" = "Нет записей";
+"recording.noRecordings.message" = "Записанный игровой процесс появится здесь.";
+
+// MARK: - Onboarding
+"onboarding.welcome.title" = "Добро пожаловать в Yearn";
+"onboarding.welcome.subtitle" = "Ваш компаньон для ретро-игр";
+"onboarding.welcome.description" = "Играйте в классические игры NES, SNES, Game Boy, N64, PlayStation и другие на вашем iOS-устройстве.";
+"onboarding.import.title" = "Импортируйте игры";
+"onboarding.import.subtitle" = "Простое управление ROM";
+"onboarding.import.description" = "Импортируйте ROM-файлы из приложения Файлы, AirDrop или облачного хранилища. Автоматическая сортировка по системам.";
+"onboarding.play.title" = "Играйте где угодно";
+"onboarding.play.subtitle" = "Сенсорное управление или геймпад";
+"onboarding.play.description" = "Используйте экранный контроллер или подключите любимый Bluetooth-геймпад для лучшего опыта.";
+"onboarding.save.title" = "Сохраняйте прогресс";
+"onboarding.save.subtitle" = "Никогда не теряйте игру";
+"onboarding.save.description" = "Сохранения состояний, автосохранение и синхронизация iCloud обеспечивают безопасность прогресса на всех устройствах.";
+"onboarding.ready.title" = "Готовы играть";
+"onboarding.ready.subtitle" = "Начнём";
+"onboarding.ready.description" = "Импортируйте первый ROM и окунитесь в любимые игровые воспоминания.";
+"onboarding.getStarted" = "Начать";
+
+// MARK: - Game Info
+"gameInfo.title" = "Информация об игре";
+"gameInfo.description" = "Описание";
+"gameInfo.details" = "Подробности";
+"gameInfo.developer" = "Разработчик";
+"gameInfo.publisher" = "Издатель";
+"gameInfo.releaseDate" = "Дата выхода";
+"gameInfo.genre" = "Жанр";
+"gameInfo.players" = "Игроки";
+"gameInfo.region" = "Регион";
+"gameInfo.fileInfo" = "Информация о файле";
+"gameInfo.fileName" = "Имя файла";
+"gameInfo.fileSize" = "Размер файла";
+"gameInfo.extension" = "Расширение";
+"gameInfo.crc32" = "CRC32";
+"gameInfo.search" = "Поиск информации об игре";
+"gameInfo.searching" = "Поиск...";
+
+// MARK: - Cover
+"cover.title" = "Обложка игры";
+"cover.change" = "Нажмите, чтобы изменить обложку";
+"cover.choosePhoto" = "Выбрать из Фото";
+"cover.searchOnline" = "Поиск в интернете";
+"cover.remove" = "Удалить пользовательскую обложку";
+
+// MARK: - Statistics
+"stats.title" = "Статистика";
+"stats.totalGames" = "Всего игр";
+"stats.totalPlayTime" = "Общее время игры";
+"stats.favoriteSystem" = "Любимая система";
+"stats.mostPlayed" = "Самые популярные";
+"stats.recentlyPlayed" = "Недавно сыгранные";
+"stats.overview" = "Обзор";
+"stats.gamesBySystem" = "Игры по системам";
+"stats.recentActivity" = "Недавняя активность";
+"stats.storage" = "Хранилище";
+"stats.totalSize" = "Общий размер";
+"stats.favorites" = "Избранное";
+"stats.chartsRequireIOS17" = "Для графиков требуется iOS 17+";
+"stats.noRecentGames" = "Нет недавно сыгранных игр";
+"stats.calculating" = "Вычисление...";
+"stats.roms" = "ROM-файлы";
+"stats.saveStates" = "Сохранения состояний";
+"stats.batterySaves" = "Сохранения батареи";
+"stats.cores" = "Ядра";
+
+// MARK: - Errors
+"error.import.failed" = "Не удалось импортировать игру";
+"error.import.unsupported" = "Неподдерживаемый формат файла";
+"error.core.notFound" = "Ядро эмулятора не найдено";
+"error.core.loadFailed" = "Не удалось загрузить ядро эмулятора";
+"error.game.loadFailed" = "Не удалось загрузить игру";
+"error.save.failed" = "Не удалось сохранить";
+"error.load.failed" = "Не удалось загрузить";
+"error.network" = "Ошибка сети";
+"error.unknown" = "Произошла неизвестная ошибка";
+
+// MARK: - iPad
+"ipad.openNewWindow" = "Открыть в новом окне";
+
+// MARK: - Time
+"time.hours" = "%d ч.";
+"time.minutes" = "%d мин.";
+"time.seconds" = "%d сек.";
+"time.never" = "Никогда";
+"time.justNow" = "Только что";
+
+// MARK: - Themes
+"theme.title" = "Тема";
+"theme.current" = "Текущая тема";
+"theme.system" = "Система";
+"theme.gaming" = "Игровые";
+"theme.styles" = "Стили";
+
+// Theme Names
+"theme.default" = "По умолчанию";
+"theme.default.desc" = "Чистый и современный системный стиль";
+"theme.nintendo" = "Nintendo Классика";
+"theme.nintendo.desc" = "Вдохновлено классическим NES/Famicom";
+"theme.snes" = "Super Nintendo";
+"theme.snes.desc" = "Красочный стиль кнопок SNES";
+"theme.gameboy" = "Game Boy";
+"theme.gameboy.desc" = "Классический зелёный монохромный дисплей";
+"theme.playstation" = "PlayStation";
+"theme.playstation.desc" = "Тёмная тема Sony PlayStation";
+"theme.xbox" = "Xbox";
+"theme.xbox.desc" = "Зелёная тема Microsoft Xbox";
+"theme.genesis" = "Sega Genesis";
+"theme.genesis.desc" = "Синий стиль скорости Sega";
+"theme.arcade" = "Ретро Аркада";
+"theme.arcade.desc" = "Неоновые огни и тёмные корпуса";
+"theme.cyberpunk" = "Киберпанк";
+"theme.cyberpunk.desc" = "Футуристический неоновый кибер-стиль";
+"theme.pixel" = "Пиксель-арт";
+"theme.pixel.desc" = "8-битные тёплые цвета";
+"theme.midnight" = "Полночь";
+"theme.midnight.desc" = "Чистая тёмная тема для OLED";
+"theme.sunset" = "Закат";
+"theme.sunset.desc" = "Тёплые цвета заката";
+"theme.ocean" = "Океан";
+"theme.ocean.desc" = "Глубокие морские синие тона";
+"theme.forest" = "Лес";
+"theme.forest.desc" = "Естественный зелёный лесной стиль";
+
+
+// Additional keys
+"skin.builtin" = "Встроенный скин";
+"settings.saves.desc" = "Автосохранение периодически создаёт резервные копии. Синхронизация iCloud сохраняет данные между устройствами.";
+"settings.storage.battery" = "Сохранения батареи";
+"settings.storage.total" = "Всего";
+"settings.storage.clearAll" = "Удалить все данные";
+"settings.storage.clearAll.confirm" = "Все ROM-файлы, сохранения и настройки будут удалены. Это действие нельзя отменить.";
+"settings.cores.manage" = "Управление ядрами";
+"settings.cores.scanning" = "Поиск ядер...";
+"settings.cores.notFound" = "Ядра не найдены";
+"settings.cores.notFound.desc" = "Импортируйте ядра libretro для включения эмуляции.";
+"settings.cores.info" = "Информация о ядре";
+"settings.cores.core" = "Ядро";
+"settings.cores.status" = "Статус";
+"settings.cores.ready" = "Готово";
+"settings.cores.performance" = "Производительность";
+"settings.cores.frameSkip" = "Пропуск кадров";
+"settings.cores.audioLatency" = "Задержка звука";
+"settings.cores.audioLatency.low" = "Низкая (32мс)";
+"settings.cores.audioLatency.medium" = "Средняя (64мс)";
+"settings.cores.audioLatency.high" = "Высокая (128мс)";
+"settings.cores.systemSpecific" = "Настройки системы";
+"settings.cores.noAdditional" = "Нет дополнительных настроек";
+"settings.cores.gbc.palette" = "Цветовая палитра";
+"settings.cores.gbc.palette.default" = "По умолчанию";
+"settings.cores.gbc.palette.grayscale" = "Оттенки серого";
+"settings.cores.gbc.palette.green" = "Классический зелёный";
+"settings.cores.gbc.palette.brown" = "Карманный коричневый";
+"settings.cores.nds.layout" = "Расположение экранов";
+"settings.cores.nds.layout.vertical" = "Вертикально";
+"settings.cores.nds.layout.vertical.desc" = "Экраны друг над другом";
+"settings.cores.nds.layout.horizontal" = "Горизонтально";
+"settings.cores.nds.layout.horizontal.desc" = "Экраны рядом";
+"settings.cores.nds.layout.single" = "Один экран";
+"settings.cores.nds.layout.single.desc" = "Показывать один экран";
+"settings.about.build" = "Сборка";
+"settings.about.licenses.content" = "Yearn использует следующие проекты с открытым исходным кодом:\n\n• libretro API - Лицензия MIT\n• FCEUmm (NES/FC) - GPL v2\n• bsnes (SNES/SFC) - GPL v3\n• Gambatte (GB/GBC) - GPL v2\n• mGBA (GBA) - MPL 2.0\n• Mupen64Plus Next (N64) - GPL v2\n• melonDS (NDS) - GPL v3\n• ClownMDEmu (MD/Genesis) - AGPL v3\n• SwanStation (PS1) - GPL v3\n\nОсновной фреймворк (YearnCore) выпущен под лицензией GPL v3.\n\nПолные тексты лицензий доступны в репозитории исходного кода.";
+"settings.about.licenses.bios" = "Встроенные файлы BIOS";
+"settings.about.acknowledgements.thanks" = "Особая благодарность";
+"settings.about.acknowledgements.libretro" = "Команде libretro за создание отличного фреймворка эмуляции.";
+"settings.about.acknowledgements.cores" = "Всем разработчикам ядер эмуляторов за их невероятную работу.";
+"settings.about.acknowledgements.community" = "Сообществу ретро-игр за сохранение классических игр.";
+"settings.about.acknowledgements.contributors" = "Участники";
+"settings.about.acknowledgements.contributors.desc" = "Этот проект с открытым исходным кодом. Вклад приветствуется!";
+"settings.controls.noControllers.desc" = "Подключите Bluetooth или MFi контроллер для использования с Yearn.";
+"settings.controls.supported" = "Поддерживаются PlayStation DualShock/DualSense, контроллеры Xbox, Nintendo Switch Pro Controller и MFi-сертифицированные контроллеры.";
+"language.restart.hint" = "Язык будет применён немедленно.";
+
+// Library additional keys
+"library.sortBy" = "Сортировка";
+"library.viewMode" = "Вид";
+"library.viewMode.grid" = "Сетка";
+"library.viewMode.list" = "Список";
+"gameInfo.fileInfo" = "Информация о файле";
+"gameInfo.system" = "Система";
+"gameInfo.file" = "Файл";
+"gameInfo.size" = "Размер";
+"gameInfo.added" = "Добавлено";
+"gameInfo.extensions" = "Поддерживаемые расширения";
+
+// Theme additional
+"theme.preview.game" = "Игра";
+
+// Controller Settings
+"controller.title" = "Контроллеры";
+"controller.connected" = "Подключённые контроллеры";
+"controller.noConnected" = "Контроллеры не подключены";
+"controller.refresh" = "Обновить";
+"controller.supported" = "Поддерживаются Xbox, PlayStation, Nintendo Switch Pro и MFi контроллеры.";
+"controller.unknown" = "Неизвестный контроллер";
+"controller.extended" = "Расширенный геймпад";
+"controller.basic" = "Базовый контроллер";
+"controller.physical" = "Физический контроллер";
+"controller.vibration" = "Вибрация";
+"controller.hideVirtual" = "Скрыть виртуальный при подключении";
+"controller.leftStickDPad" = "Левый стик как D-Pad";
+"controller.rightStickCamera" = "Правый стик для камеры";
+"controller.deadzone" = "Мёртвая зона стика";
+"controller.mapping" = "Назначение кнопок";
+"controller.virtual" = "Виртуальный контроллер";
+"controller.opacity" = "Прозрачность";
+"controller.size" = "Размер";
+"controller.showLabels" = "Показать метки кнопок";
+"controller.haptics" = "Тактильная отдача";
+"controller.autoHide" = "Автоскрытие при простое";
+"controller.skin" = "Скин контроллера";
+"controller.presets" = "Быстрые пресеты";
+"controller.preset.compact" = "Компактный (маленькие руки)";
+"controller.preset.default" = "По умолчанию";
+"controller.preset.large" = "Большой (большие руки)";
+"controller.turbo" = "Турбо";
+"controller.turbo.settings" = "Настройки турбо";
+"controller.turbo.enable" = "Включить турбо";
+"controller.turbo.speed" = "Скорость турбо";
+"controller.turbo.desc" = "Турбо режим автоматически быстро нажимает кнопки.";
+"controller.turbo.buttons" = "Турбо кнопки";
+"controller.mapping.face" = "Лицевые кнопки";
+"controller.mapping.dpad" = "D-Pad";
+"controller.mapping.shoulder" = "Плечевые кнопки";
+"controller.mapping.thumbstick" = "Кнопки стиков";
+"controller.mapping.system" = "Системные кнопки";
+"controller.mapping.reset" = "Сбросить по умолчанию";
+"controller.mapping.press" = "Нажмите кнопку...";
+"controller.mapping.notSet" = "Не задано";
+"controller.button.a" = "Кнопка A";
+"controller.button.b" = "Кнопка B";
+"controller.button.x" = "Кнопка X";
+"controller.button.y" = "Кнопка Y";
+"controller.button.up" = "D-Pad Вверх";
+"controller.button.down" = "D-Pad Вниз";
+"controller.button.left" = "D-Pad Влево";
+"controller.button.right" = "D-Pad Вправо";
+"controller.button.l" = "L1 / L";
+"controller.button.r" = "R1 / R";
+"controller.button.l2" = "L2 / ZL";
+"controller.button.r2" = "R2 / ZR";
+"controller.button.l3" = "L3 (Левый стик)";
+"controller.button.r3" = "R3 (Правый стик)";
+"controller.button.start" = "Start / +";
+"controller.button.select" = "Select / -";
+
+// MARK: - External Display
+"display.title" = "Внешний дисплей";
+"display.status" = "Состояние подключения";
+"display.status.desc" = "Подключите через AirPlay, HDMI-адаптер или USB-C для вывода игр на ТВ.";
+"display.connected" = "Внешний дисплей подключён";
+"display.notConnected" = "Внешний дисплей не подключён";
+"display.mode" = "Режим отображения";
+"display.mode.gameOnly" = "Только игра";
+"display.mode.gameOnly.desc" = "Показывать только игру на ТВ";
+"display.mode.fullMirror" = "Полное зеркалирование";
+"display.mode.fullMirror.desc" = "Зеркалировать весь экран с элементами управления";
+"display.mode.gameWithBorder" = "Игра с рамкой";
+"display.mode.gameWithBorder.desc" = "Показывать игру с декоративной рамкой";
+"display.options" = "Параметры";
+"display.showControlsOnDevice" = "Показывать элементы управления на устройстве";
+"display.scale" = "Масштаб дисплея";
+"display.tips" = "Советы по подключению";
+"display.tip.airplay" = "AirPlay: Проведите вниз из правого верхнего угла, нажмите Повтор экрана";
+"display.tip.hdmi" = "HDMI: Используйте адаптер Lightning/USB-C на HDMI";
+"display.tip.usbc" = "USB-C: Подключите напрямую к совместимому дисплею";
+
+// MARK: - BIOS Settings
+"settings.bios" = "Файлы BIOS";
+"settings.bios.manage" = "Управление BIOS";
+"settings.bios.ps1.missing" = "BIOS PS1 отсутствует";
+
+"bios.ps1.title" = "PlayStation (PS1)";
+"bios.ps1.footer" = "Для эмуляции PS1 требуются официальные файлы BIOS. Установите хотя бы один региональный BIOS для игр этого региона. Рекомендуется установить все регионы для лучшей совместимости.";
+
+"bios.nds.title" = "Nintendo DS (NDS)";
+"bios.nds.footer" = "NDS использует встроенные открытые заменители BIOS. Дополнительная настройка не требуется.";
+"bios.nds.builtin" = "Используется встроенный открытый BIOS";
+
+"bios.import" = "Импорт файлов BIOS";
+"bios.import.section" = "Импорт файлов";
+"bios.import.footer" = "Выберите файлы BIOS из приложения Файлы или iCloud Drive. Имена файлов должны соответствовать стандартным (например, scph5501.bin).";
+"bios.import.success" = "Успешно импортировано %d файл(ов) BIOS";
+"bios.import.partial" = "Успешно импортировано %d файл(ов). Следующие файлы не удалось импортировать:\n%@";
+"bios.directory" = "Директория BIOS";
+
+"bios.help.title" = "Справка";
+"bios.help.whatIs" = "Что такое BIOS?";
+"bios.help.whatIs.content" = "BIOS (базовая система ввода-вывода) — это прошивка игровой консоли. Некоторым эмуляторам требуются оригинальные файлы BIOS для корректной работы игр. Эмуляторам PlayStation нужны официальные файлы BIOS, а эмуляторы NDS могут использовать открытые альтернативы.";
+"bios.help.whereToGet" = "Как получить файлы BIOS?";
+"bios.help.whereToGet.content" = "Из-за авторских прав мы не можем предоставить официальные файлы BIOS. Вам нужно извлечь файлы BIOS из собственной игровой консоли. В интернете много руководств по извлечению BIOS с физического оборудования. Убедитесь, что вы законно владеете соответствующей консолью.";
+"bios.help.fileNames" = "Имена файлов BIOS";
+"bios.help.fileNames.ps1" = "Файлы BIOS PS1:";
+
+"bios.error.unknownFile" = "Неизвестный файл BIOS. Проверьте имя файла.";
+"bios.error.accessDenied" = "Невозможно получить доступ к файлу. Проверьте права доступа.";
+"bios.error.copyFailed" = "Не удалось скопировать файл: %@";
+
+// BIOS Alert
+"bios.alert.title" = "Требуется файл BIOS";
+"bios.alert.goToSettings" = "Перейти в настройки";
+"bios.alert.message.PS1" = "Для игр PlayStation требуются официальные файлы BIOS. Перейдите в настройки, чтобы импортировать файлы BIOS (например, scph5501.bin).";
+
+// MARK: - Pause Menu
+"pause.resume" = "Продолжить";
+"pause.save" = "Сохранить";
+"pause.saveStates" = "Сохранения";
+"pause.screenshot" = "Скриншот";
+"pause.screenshot.saved" = "Скриншот сохранён";
+"pause.speed" = "Скорость";
+"pause.speed.current" = "Скорость: %@";
+"pause.cheats" = "Читы";
+"pause.reset" = "Сброс";
+"pause.info" = "Инфо";
+"pause.gameInfo" = "Информация об игре";
+"pause.skin" = "Скин";
+"pause.controllerSkin" = "Скин контроллера";
+"pause.quit" = "Выйти";
+
+// MARK: - BIOS File Names
+"bios.region.japan" = "Япония";
+"bios.region.usa" = "США";
+"bios.region.europe" = "Европа";
+"bios.region.usa.old" = "США (старый)";
+
+// MARK: - Display Settings
+"settings.display.gameScale" = "Масштаб экрана игры";
+
+// MARK: - Import Help
+"import.help.button" = "Помощь по импорту";
+"import.help.nav.title" = "Помощь по импорту";
+"import.help.title" = "Как импортировать игры";
+"import.help.subtitle" = "Узнайте, как импортировать ROM-файлы в Yearn";
+"import.help.systems.title" = "Поддерживаемые системы";
+"import.help.methods.title" = "Способы импорта";
+"import.help.method.files" = "Выбрать файлы";
+"import.help.method.files.desc" = "Выберите один или несколько ROM-файлов из приложения Файлы";
+"import.help.method.folder" = "Выбрать папку";
+"import.help.method.folder.desc" = "Импортировать все игры из папки за раз";
+"import.help.method.icloud" = "iCloud Drive";
+"import.help.method.icloud.desc" = "Выберите ROM-файлы из iCloud Drive";
+"import.help.method.airdrop" = "AirDrop";
+"import.help.method.airdrop.desc" = "Получите ROM-файлы через AirDrop с других устройств";
+"import.help.tips.title" = "Советы";
+"import.help.tip.1" = "Убедитесь, что расширения файлов правильные (.nes, .sfc, .gba и т.д.)";
+"import.help.tip.2" = "Игры PS1 требуют формат .bin/.cue, .iso или .chd";
+"import.help.tip.3" = "После импорта игры автоматически сортируются по системам";
+"import.help.tip.4" = "Вы можете управлять импортированными играми в Настройках";
+"import.help.bios.title" = "Информация о BIOS";
+"import.help.bios.desc" = "Для игр PlayStation (PS1) требуются файлы BIOS. Импортируйте BIOS в Настройки > Файлы BIOS. Другие платформы не требуют дополнительных файлов BIOS.";

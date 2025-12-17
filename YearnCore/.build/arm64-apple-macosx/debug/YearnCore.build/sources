@@ -1,0 +1,14 @@
+/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/Audio/AudioBuffer.swift
+/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/Audio/AudioEngine.swift
+/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/Emulator/EmulatorManager.swift
+/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/Emulator/EmulatorState.swift
+/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/Input/InputManager.swift
+/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/Input/VirtualController.swift
+/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/Libretro/CoreAdapter.swift
+/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/Libretro/LibretroBridge.swift
+/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/Libretro/LibretroTypes.swift
+/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/SaveState/SaveStateManager.swift
+/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/Video/MetalView.swift
+/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/Video/VideoBuffer.swift
+/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/Video/VideoRenderer.swift
+/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/YearnCore.swift

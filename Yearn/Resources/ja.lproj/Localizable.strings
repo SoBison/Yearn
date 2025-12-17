@@ -1,0 +1,629 @@
+/* 
+  Localizable.strings (日本語)
+  Yearn
+*/
+
+// MARK: - General
+"app.name" = "Yearn";
+"common.done" = "完了";
+"common.cancel" = "キャンセル";
+"common.save" = "保存";
+"common.delete" = "削除";
+"common.edit" = "編集";
+"common.ok" = "OK";
+"common.error" = "エラー";
+"common.success" = "成功";
+"common.loading" = "読み込み中...";
+"common.search" = "検索";
+"common.settings" = "設定";
+"common.back" = "戻る";
+"common.next" = "次へ";
+"common.skip" = "スキップ";
+"common.retry" = "再試行";
+"common.close" = "閉じる";
+"common.share" = "共有";
+"common.favorite" = "お気に入り";
+"common.unfavorite" = "お気に入り解除";
+
+// MARK: - Tab Bar
+"tab.library" = "ライブラリ";
+"tab.settings" = "設定";
+
+// MARK: - Library
+"library.title" = "ゲームライブラリ";
+"library.empty.title" = "ゲームがありません";
+"library.empty.message" = "ROMファイルをインポートしてプレイを開始";
+"library.import" = "ROMをインポート";
+"library.import.folder" = "フォルダをインポート";
+"library.recent" = "最近プレイしたゲーム";
+"library.favorites" = "お気に入り";
+"library.all" = "すべてのゲーム";
+"library.search.placeholder" = "ゲームを検索...";
+"library.sort.name" = "名前";
+"library.sort.date" = "追加日";
+"library.sort.lastPlayed" = "最終プレイ";
+"library.sort.system" = "システム";
+"library.filter.all" = "すべてのシステム";
+"library.game.play" = "プレイ";
+"library.game.delete" = "ゲームを削除";
+"library.game.delete.confirm" = "「%@」を削除してもよろしいですか？この操作は取り消せません。";
+"library.game.info" = "ゲーム情報";
+"library.game.cover" = "カバーを変更";
+
+// MARK: - Game Systems
+"system.nes" = "ファミリーコンピュータ";
+"system.nes.short" = "FC";
+"system.snes" = "スーパーファミコン";
+"system.snes.short" = "SFC";
+"system.gb" = "ゲームボーイ";
+"system.gbc" = "ゲームボーイカラー";
+"system.gbc.short" = "GB/GBC";
+"system.gba" = "ゲームボーイアドバンス";
+"system.gba.short" = "GBA";
+"system.n64" = "NINTENDO64";
+"system.n64.short" = "N64";
+"system.nds" = "ニンテンドーDS";
+"system.nds.short" = "NDS";
+"system.genesis" = "メガドライブ";
+"system.genesis.short" = "MD";
+"system.ps1" = "プレイステーション";
+"system.ps1.short" = "PS1";
+
+// MARK: - Emulation
+"emulation.pause" = "一時停止";
+"emulation.resume" = "再開";
+"emulation.reset" = "リセット";
+"emulation.quit" = "ゲームを終了";
+"emulation.quit.confirm" = "終了してもよろしいですか？保存されていない進行状況は失われます。";
+"emulation.saveState" = "ステートセーブ";
+"emulation.loadState" = "ステートロード";
+"emulation.quickSave" = "クイックセーブ";
+"emulation.quickLoad" = "クイックロード";
+"emulation.screenshot" = "スクリーンショット";
+"emulation.screenshot.saved" = "スクリーンショットを保存しました";
+"emulation.fastForward" = "早送り";
+"emulation.slowMotion" = "スローモーション";
+"emulation.speed" = "速度";
+"emulation.cheats" = "チート";
+"emulation.rewind" = "巻き戻し";
+
+// MARK: - Save States
+"saveStates.title" = "ステートセーブ";
+"saveStates.slot" = "スロット %d";
+"saveStates.quickSave" = "クイックセーブ";
+"saveStates.empty" = "空";
+"saveStates.noStates" = "セーブデータがありません";
+"saveStates.noStates.message" = "進行状況を保存して後で続きをプレイ";
+"saveStates.delete" = "セーブデータを削除";
+"saveStates.delete.confirm" = "このセーブデータを削除してもよろしいですか？";
+"saveStates.load" = "ロード";
+"saveStates.save" = "セーブ";
+
+// MARK: - Cheats
+"cheats.title" = "チート";
+"cheats.add" = "チートを追加";
+"cheats.edit" = "チートを編集";
+"cheats.name" = "名前";
+"cheats.code" = "コード";
+"cheats.format" = "フォーマット";
+"cheats.enabled" = "有効";
+"cheats.empty" = "チートがありません";
+"cheats.empty.message" = "チートコードを追加してゲームプレイを強化";
+"cheats.format.gameGenie" = "Game Genie";
+"cheats.format.actionReplay" = "Action Replay";
+"cheats.format.gameShark" = "GameShark";
+"cheats.format.codeBreaker" = "Code Breaker";
+"cheats.format.raw" = "Raw（アドレス:値）";
+"cheats.invalid" = "無効なチートコード";
+
+// MARK: - Settings
+"settings.title" = "設定";
+"settings.appearance" = "外観";
+"settings.general" = "一般";
+"settings.display" = "ディスプレイ";
+"settings.audio" = "オーディオ";
+"settings.controls" = "コントローラー";
+"settings.saves" = "セーブ";
+"settings.cores" = "エミュレータコア";
+"settings.storage" = "ストレージ";
+"settings.about" = "このアプリについて";
+"settings.accessibility" = "アクセシビリティ";
+
+// MARK: - General Settings
+"settings.general.haptics" = "触覚フィードバック";
+"settings.general.haptics.desc" = "バーチャルボタンを押したときに触覚フィードバックを提供します。";
+"settings.general.keepAwake" = "画面を常にオン";
+"settings.general.showFPS" = "FPSカウンターを表示";
+"settings.general.language" = "言語";
+"settings.general.language.system" = "システム設定に従う";
+"language.available" = "利用可能な言語";
+"language.restart.hint" = "言語の変更を適用するにはアプリを再起動してください。";
+"settings.general.language" = "言語";
+
+// MARK: - Display Settings
+"settings.display.filter" = "ビデオフィルター";
+"settings.display.filter.none" = "なし（ピクセルパーフェクト）";
+"settings.display.filter.smooth" = "スムース";
+"settings.display.filter.crt" = "CRT";
+"settings.display.filter.lcd" = "LCD";
+"settings.display.aspectRatio" = "アスペクト比";
+"settings.display.aspectRatio.native" = "ネイティブ";
+"settings.display.aspectRatio.fill" = "画面いっぱい";
+"settings.display.aspectRatio.4:3" = "4:3";
+"settings.display.aspectRatio.16:9" = "16:9";
+
+// MARK: - Audio Settings
+"settings.audio.volume" = "音量";
+"settings.audio.mute" = "ミュート";
+
+// MARK: - Controller Settings
+"settings.controls.title" = "コントローラー設定";
+"settings.controls.virtual" = "バーチャルコントローラー";
+"settings.controls.opacity" = "不透明度";
+"settings.controls.size" = "サイズ";
+"settings.controls.haptics" = "触覚フィードバック";
+"settings.controls.labels" = "ボタンラベルを表示";
+"settings.controls.autoHide" = "アイドル時に自動非表示";
+"settings.controls.skin" = "コントローラースキン";
+"settings.controls.vibration" = "振動";
+"settings.controls.mapping" = "ボタンマッピング";
+"settings.controls.connected" = "接続中のコントローラー";
+"settings.controls.noControllers" = "コントローラーが接続されていません";
+"settings.controls.turbo" = "連射設定";
+"settings.controls.preset.compact" = "コンパクト（小さい手用）";
+"settings.controls.preset.default" = "デフォルト";
+"settings.controls.preset.large" = "ラージ（大きい手用）";
+
+// MARK: - Controller Skins
+"skin.default" = "デフォルト";
+"skin.minimal" = "ミニマル";
+"skin.retro" = "レトロ";
+"skin.neon" = "ネオン";
+"skin.classicNintendo" = "クラシック任天堂";
+"skin.playStation" = "PlayStation";
+"skin.xbox" = "Xbox";
+"skin.transparent" = "透明";
+"skin.darkMode" = "ダークモード";
+"skin.custom" = "カスタム";
+"skin.create" = "カスタムスキンを作成";
+"skin.builtin" = "内蔵";
+"skin.category.standard" = "スタンダード";
+"skin.category.themed" = "テーマ";
+"skin.category.special" = "スペシャル";
+"skin.category.custom" = "カスタムスキン";
+"skin.themed" = "テーマ";
+"skin.special" = "スペシャル";
+
+// MARK: - Save Settings
+"settings.saves.autoSave" = "オートセーブ";
+"settings.saves.autoSave.interval" = "オートセーブ間隔";
+"settings.saves.autoSave.interval.30sec" = "30秒";
+"settings.saves.autoSave.interval.1min" = "1分";
+"settings.saves.autoSave.interval.2min" = "2分";
+"settings.saves.autoSave.interval.5min" = "5分";
+"settings.saves.autoSave.interval.10min" = "10分";
+"settings.saves.icloud" = "iCloud同期";
+"settings.saves.icloud.description" = "デバイス間でセーブを同期";
+
+// MARK: - Storage
+"settings.storage.used" = "使用中のストレージ";
+"settings.storage.roms" = "ROM";
+"settings.storage.saves" = "ステートセーブ";
+"settings.storage.artwork" = "アートワーク";
+"settings.storage.clearCache" = "キャッシュをクリア";
+"settings.storage.clearCache.confirm" = "キャッシュされたアートワークと一時ファイルを削除します。";
+
+// MARK: - About
+"settings.about.version" = "バージョン";
+"settings.about.licenses" = "オープンソースライセンス";
+"settings.about.sourceCode" = "ソースコード";
+"settings.about.rate" = "App Storeで評価";
+"settings.about.contact" = "お問い合わせ";
+
+// MARK: - Accessibility
+"settings.accessibility.reduceMotion" = "視差効果を減らす";
+"settings.accessibility.highContrast" = "高コントラスト";
+"settings.accessibility.largeButtons" = "大きいボタン";
+"settings.accessibility.buttonLabels" = "ボタンラベルを表示";
+"settings.accessibility.voiceOver" = "VoiceOverヒント";
+"settings.accessibility.holdToConfirm" = "長押しで確認";
+"settings.accessibility.autoHide" = "コントローラーを自動非表示";
+"settings.accessibility.hideDelay" = "非表示までの時間";
+
+// MARK: - Speed
+"speed.title" = "エミュレーション速度";
+"speed.0.25x" = "0.25倍（遅い）";
+"speed.0.5x" = "0.5倍（遅い）";
+"speed.0.75x" = "0.75倍";
+"speed.1x" = "1倍（通常）";
+"speed.1.5x" = "1.5倍";
+"speed.2x" = "2倍";
+"speed.3x" = "3倍";
+"speed.4x" = "4倍";
+"speed.8x" = "8倍";
+"speed.unlimited" = "無制限";
+"speed.fastForward" = "早送り速度";
+"speed.slowMotion" = "スローモーション速度";
+"speed.holdToFF" = "長押しで早送り";
+"speed.indicator" = "速度インジケーターを表示";
+
+// MARK: - Turbo
+"turbo.title" = "連射設定";
+"turbo.enable" = "連射を有効にする";
+"turbo.speed" = "連射速度";
+"turbo.speed.slow" = "遅い (10 Hz)";
+"turbo.speed.normal" = "通常 (20 Hz)";
+"turbo.speed.fast" = "速い (30 Hz)";
+"turbo.speed.veryFast" = "超速い (50 Hz)";
+"turbo.faceButtons" = "フェイスボタン";
+"turbo.shoulderButtons" = "ショルダーボタン";
+"turbo.clearAll" = "すべての連射をクリア";
+
+// MARK: - Recording
+"recording.title" = "録画";
+"recording.start" = "録画開始";
+"recording.stop" = "録画停止";
+"recording.saved" = "録画を保存しました";
+"recording.saved.message" = "ゲームプレイを録画しました。どうしますか？";
+"recording.saveToPhotos" = "写真に保存";
+"recording.discard" = "破棄";
+"recording.keepInApp" = "アプリ内に保持";
+"recording.settings" = "録画設定";
+"recording.includeAudio" = "ゲーム音声を含める";
+"recording.includeMic" = "マイクを含める";
+"recording.quality" = "ビデオ品質";
+"recording.quality.low" = "低 (480p)";
+"recording.quality.medium" = "中 (720p)";
+"recording.quality.high" = "高 (1080p)";
+"recording.list" = "保存した録画";
+"recording.noRecordings" = "録画がありません";
+"recording.noRecordings.message" = "録画したゲームプレイはここに表示されます。";
+
+// MARK: - Onboarding
+"onboarding.welcome.title" = "Yearnへようこそ";
+"onboarding.welcome.subtitle" = "あなたのレトロゲームパートナー";
+"onboarding.welcome.description" = "iOSデバイスでNES、SNES、ゲームボーイ、N64、プレイステーションなどのクラシックゲームをプレイ。";
+"onboarding.import.title" = "ゲームをインポート";
+"onboarding.import.subtitle" = "簡単なROM管理";
+"onboarding.import.description" = "ファイルアプリ、AirDrop、またはクラウドストレージからROMファイルをインポート。システム別に自動整理。";
+"onboarding.play.title" = "どこでもプレイ";
+"onboarding.play.subtitle" = "タッチまたはコントローラー";
+"onboarding.play.description" = "画面上のコントローラーを使用するか、お気に入りのBluetoothゲームパッドを接続して最高の体験を。";
+"onboarding.save.title" = "進行状況を保存";
+"onboarding.save.subtitle" = "ゲームを失わない";
+"onboarding.save.description" = "ステートセーブ、オートセーブ、iCloud同期で、すべてのデバイスで進行状況を安全に保存。";
+"onboarding.ready.title" = "準備完了";
+"onboarding.ready.subtitle" = "始めましょう";
+"onboarding.ready.description" = "最初のROMをインポートして、お気に入りのゲームの思い出を蘇らせましょう。";
+"onboarding.getStarted" = "始める";
+
+// MARK: - Game Info
+"gameInfo.title" = "ゲーム情報";
+"gameInfo.description" = "説明";
+"gameInfo.details" = "詳細";
+"gameInfo.developer" = "開発";
+"gameInfo.publisher" = "発売";
+"gameInfo.releaseDate" = "発売日";
+"gameInfo.genre" = "ジャンル";
+"gameInfo.players" = "プレイヤー数";
+"gameInfo.region" = "地域";
+"gameInfo.fileInfo" = "ファイル情報";
+"gameInfo.fileName" = "ファイル名";
+"gameInfo.fileSize" = "ファイルサイズ";
+"gameInfo.extension" = "拡張子";
+"gameInfo.crc32" = "CRC32";
+"gameInfo.search" = "ゲーム情報を検索";
+"gameInfo.searching" = "検索中...";
+
+// MARK: - Cover
+"cover.title" = "ゲームカバー";
+"cover.change" = "タップしてカバーを変更";
+"cover.choosePhoto" = "写真から選択";
+"cover.searchOnline" = "オンラインで検索";
+"cover.remove" = "カスタムカバーを削除";
+
+// MARK: - Statistics
+"stats.title" = "統計";
+"stats.totalGames" = "ゲーム総数";
+"stats.totalPlayTime" = "総プレイ時間";
+"stats.favoriteSystem" = "お気に入りのシステム";
+"stats.mostPlayed" = "最もプレイしたゲーム";
+"stats.recentlyPlayed" = "最近プレイしたゲーム";
+"stats.overview" = "概要";
+"stats.gamesBySystem" = "システム別ゲーム";
+"stats.recentActivity" = "最近のアクティビティ";
+"stats.storage" = "ストレージ";
+"stats.totalSize" = "合計サイズ";
+"stats.favorites" = "お気に入り";
+"stats.chartsRequireIOS17" = "グラフにはiOS 17以降が必要です";
+"stats.noRecentGames" = "最近プレイしたゲームはありません";
+"stats.calculating" = "計算中...";
+"stats.roms" = "ROM";
+"stats.saveStates" = "セーブステート";
+"stats.batterySaves" = "バッテリーセーブ";
+"stats.cores" = "コア";
+
+// MARK: - Errors
+"error.import.failed" = "ゲームのインポートに失敗しました";
+"error.import.unsupported" = "サポートされていないファイル形式";
+"error.core.notFound" = "エミュレータコアが見つかりません";
+"error.core.loadFailed" = "エミュレータコアの読み込みに失敗しました";
+"error.game.loadFailed" = "ゲームの読み込みに失敗しました";
+"error.save.failed" = "保存に失敗しました";
+"error.load.failed" = "読み込みに失敗しました";
+"error.network" = "ネットワークエラー";
+"error.unknown" = "不明なエラーが発生しました";
+
+// MARK: - iPad
+"ipad.openNewWindow" = "新しいウィンドウで開く";
+
+// MARK: - Time
+"time.hours" = "%d時間";
+"time.minutes" = "%d分";
+"time.seconds" = "%d秒";
+"time.never" = "なし";
+"time.justNow" = "たった今";
+
+// MARK: - Themes
+"theme.title" = "テーマ";
+"theme.current" = "現在のテーマ";
+"theme.system" = "システム";
+"theme.gaming" = "ゲーム機";
+"theme.styles" = "スタイル";
+
+// Theme Names
+"theme.default" = "デフォルト";
+"theme.default.desc" = "クリーンでモダンなシステムスタイル";
+"theme.nintendo" = "任天堂クラシック";
+"theme.nintendo.desc" = "クラシックなファミコン/NESスタイル";
+"theme.snes" = "スーパーファミコン";
+"theme.snes.desc" = "カラフルなSFCボタンスタイル";
+"theme.gameboy" = "ゲームボーイ";
+"theme.gameboy.desc" = "クラシックな緑のモノクロディスプレイ";
+"theme.playstation" = "PlayStation";
+"theme.playstation.desc" = "ソニーPlayStationダークテーマ";
+"theme.xbox" = "Xbox";
+"theme.xbox.desc" = "Microsoft Xboxグリーンテーマ";
+"theme.genesis" = "メガドライブ";
+"theme.genesis.desc" = "セガブルーとスピードスタイル";
+"theme.arcade" = "レトロアーケード";
+"theme.arcade.desc" = "ネオンライトとダークキャビネット";
+"theme.cyberpunk" = "サイバーパンク";
+"theme.cyberpunk.desc" = "未来的なネオンサイバースタイル";
+"theme.pixel" = "ピクセルアート";
+"theme.pixel.desc" = "8ビット風の暖色系";
+"theme.midnight" = "ミッドナイト";
+"theme.midnight.desc" = "ピュアダークOLED対応テーマ";
+"theme.sunset" = "サンセット";
+"theme.sunset.desc" = "暖かいグラデーションの夕焼け色";
+"theme.ocean" = "オーシャン";
+"theme.ocean.desc" = "深海ブルートーン";
+"theme.forest" = "フォレスト";
+"theme.forest.desc" = "自然なグリーンの森林スタイル";
+
+
+// Additional keys
+"skin.builtin" = "内蔵スキン";
+"settings.saves.desc" = "オートセーブは定期的にバックアップを作成します。iCloud同期でデバイス間でセーブを同期できます。";
+"settings.storage.battery" = "バッテリーセーブ";
+"settings.storage.total" = "合計";
+"settings.storage.clearAll" = "すべてのデータを削除";
+"settings.storage.clearAll.confirm" = "すべてのROM、セーブデータ、設定が削除されます。この操作は取り消せません。";
+"settings.cores.manage" = "コアを管理";
+"settings.cores.scanning" = "コアをスキャン中...";
+"settings.cores.notFound" = "コアが見つかりません";
+"settings.cores.notFound.desc" = "エミュレーションを有効にするにはlibretroコアをインポートしてください。";
+"settings.cores.info" = "コア情報";
+"settings.cores.core" = "コア";
+"settings.cores.status" = "ステータス";
+"settings.cores.ready" = "準備完了";
+"settings.cores.performance" = "パフォーマンス";
+"settings.cores.frameSkip" = "フレームスキップ";
+"settings.cores.audioLatency" = "オーディオ遅延";
+"settings.cores.audioLatency.low" = "低 (32ms)";
+"settings.cores.audioLatency.medium" = "中 (64ms)";
+"settings.cores.audioLatency.high" = "高 (128ms)";
+"settings.cores.systemSpecific" = "システム固有設定";
+"settings.cores.noAdditional" = "追加設定なし";
+"settings.cores.gbc.palette" = "カラーパレット";
+"settings.cores.gbc.palette.default" = "デフォルト";
+"settings.cores.gbc.palette.grayscale" = "グレースケール";
+"settings.cores.gbc.palette.green" = "クラシックグリーン";
+"settings.cores.gbc.palette.brown" = "ポケットブラウン";
+"settings.cores.nds.layout" = "画面レイアウト";
+"settings.cores.nds.layout.vertical" = "縦並び";
+"settings.cores.nds.layout.vertical.desc" = "画面を縦に配置";
+"settings.cores.nds.layout.horizontal" = "横並び";
+"settings.cores.nds.layout.horizontal.desc" = "画面を横に配置";
+"settings.cores.nds.layout.single" = "シングル画面";
+"settings.cores.nds.layout.single.desc" = "一度に1画面を表示";
+"settings.about.build" = "ビルド";
+"settings.about.licenses.content" = "Yearnは以下のオープンソースプロジェクトを使用しています：\n\n• libretro API - MIT ライセンス\n• FCEUmm (NES/FC) - GPL v2\n• bsnes (SNES/SFC) - GPL v3\n• Gambatte (GB/GBC) - GPL v2\n• mGBA (GBA) - MPL 2.0\n• Mupen64Plus Next (N64) - GPL v2\n• melonDS (NDS) - GPL v3\n• ClownMDEmu (MD/Genesis) - AGPL v3\n• SwanStation (PS1) - GPL v3\n\nコアフレームワーク (YearnCore) は GPL v3 ライセンスで公開されています。\n\n完全なライセンステキストはソースリポジトリをご覧ください。";
+"settings.about.licenses.bios" = "内蔵BIOSファイル";
+"settings.about.acknowledgements.thanks" = "スペシャルサンクス";
+"settings.about.acknowledgements.libretro" = "素晴らしいエミュレーションフレームワークを作成したlibretroチームに感謝します。";
+"settings.about.acknowledgements.cores" = "素晴らしい仕事をしたすべてのエミュレータコア開発者に感謝します。";
+"settings.about.acknowledgements.community" = "クラシックゲームを生かし続けるレトロゲームコミュニティに感謝します。";
+"settings.about.acknowledgements.contributors" = "コントリビューター";
+"settings.about.acknowledgements.contributors.desc" = "このプロジェクトはオープンソースです。貢献を歓迎します！";
+"settings.controls.noControllers.desc" = "BluetoothまたはMFiコントローラーを接続してYearnで使用できます。";
+"settings.controls.supported" = "PlayStation DualShock/DualSense、Xboxコントローラー、Nintendo Switch Proコントローラー、MFi認定コントローラーがサポートされています。";
+"language.restart.hint" = "言語は即座に適用されます。";
+
+// Library additional keys
+"library.sortBy" = "並び替え";
+"library.viewMode" = "表示";
+"library.viewMode.grid" = "グリッド";
+"library.viewMode.list" = "リスト";
+"gameInfo.fileInfo" = "ファイル情報";
+"gameInfo.system" = "システム";
+"gameInfo.file" = "ファイル";
+"gameInfo.size" = "サイズ";
+"gameInfo.added" = "追加日";
+"gameInfo.extensions" = "対応拡張子";
+
+// Theme additional
+"theme.preview.game" = "ゲーム";
+
+// Controller Settings
+"controller.title" = "コントローラー";
+"controller.connected" = "接続中のコントローラー";
+"controller.noConnected" = "コントローラーが接続されていません";
+"controller.refresh" = "更新";
+"controller.supported" = "Xbox、PlayStation、Nintendo Switch Pro、MFiコントローラーに対応。";
+"controller.unknown" = "不明なコントローラー";
+"controller.extended" = "拡張ゲームパッド";
+"controller.basic" = "基本コントローラー";
+"controller.physical" = "物理コントローラー";
+"controller.vibration" = "振動";
+"controller.hideVirtual" = "接続時に仮想を非表示";
+"controller.leftStickDPad" = "左スティックを十字キーとして使用";
+"controller.rightStickCamera" = "右スティックでカメラ操作";
+"controller.deadzone" = "スティックデッドゾーン";
+"controller.mapping" = "ボタン配置";
+"controller.virtual" = "仮想コントローラー";
+"controller.opacity" = "透明度";
+"controller.size" = "サイズ";
+"controller.showLabels" = "ボタンラベルを表示";
+"controller.haptics" = "触覚フィードバック";
+"controller.autoHide" = "アイドル時に自動非表示";
+"controller.skin" = "コントローラースキン";
+"controller.presets" = "クイックプリセット";
+"controller.preset.compact" = "コンパクト（小さい手）";
+"controller.preset.default" = "デフォルト";
+"controller.preset.large" = "ラージ（大きい手）";
+"controller.turbo" = "連射";
+"controller.turbo.settings" = "連射設定";
+"controller.turbo.enable" = "連射を有効化";
+"controller.turbo.speed" = "連射速度";
+"controller.turbo.desc" = "連射モードはボタンを自動的に高速で押します。";
+"controller.turbo.buttons" = "連射ボタン";
+"controller.mapping.face" = "フェイスボタン";
+"controller.mapping.dpad" = "十字キー";
+"controller.mapping.shoulder" = "ショルダーボタン";
+"controller.mapping.thumbstick" = "スティックボタン";
+"controller.mapping.system" = "システムボタン";
+"controller.mapping.reset" = "デフォルトにリセット";
+"controller.mapping.press" = "ボタンを押してください...";
+"controller.mapping.notSet" = "未設定";
+"controller.button.a" = "Aボタン";
+"controller.button.b" = "Bボタン";
+"controller.button.x" = "Xボタン";
+"controller.button.y" = "Yボタン";
+"controller.button.up" = "十字キー 上";
+"controller.button.down" = "十字キー 下";
+"controller.button.left" = "十字キー 左";
+"controller.button.right" = "十字キー 右";
+"controller.button.l" = "L1 / L";
+"controller.button.r" = "R1 / R";
+"controller.button.l2" = "L2 / ZL";
+"controller.button.r2" = "R2 / ZR";
+"controller.button.l3" = "L3（左スティック）";
+"controller.button.r3" = "R3（右スティック）";
+"controller.button.start" = "Start / +";
+"controller.button.select" = "Select / -";
+
+// MARK: - External Display
+"display.title" = "外部ディスプレイ";
+"display.status" = "接続状態";
+"display.status.desc" = "AirPlay、HDMIアダプター、USB-Cでテレビにゲームを表示できます。";
+"display.connected" = "外部ディスプレイ接続中";
+"display.notConnected" = "外部ディスプレイなし";
+"display.mode" = "表示モード";
+"display.mode.gameOnly" = "ゲームのみ";
+"display.mode.gameOnly.desc" = "テレビにゲーム画面のみ表示";
+"display.mode.fullMirror" = "フルミラーリング";
+"display.mode.fullMirror.desc" = "コントローラーを含む画面全体をミラーリング";
+"display.mode.gameWithBorder" = "枠付きゲーム";
+"display.mode.gameWithBorder.desc" = "装飾枠付きでゲームを表示";
+"display.options" = "オプション";
+"display.showControlsOnDevice" = "デバイスにコントローラーを表示";
+"display.scale" = "表示スケール";
+"display.tips" = "接続のヒント";
+"display.tip.airplay" = "AirPlay：右上から下にスワイプして画面ミラーリングをタップ";
+"display.tip.hdmi" = "HDMI：Lightning/USB-C to HDMIアダプターを使用";
+"display.tip.usbc" = "USB-C：対応ディスプレイに直接接続";
+
+// MARK: - BIOS Settings
+"settings.bios" = "BIOSファイル";
+"settings.bios.manage" = "BIOS管理";
+"settings.bios.ps1.missing" = "PS1 BIOS未検出";
+
+"bios.ps1.title" = "PlayStation (PS1)";
+"bios.ps1.footer" = "PS1エミュレーションには公式BIOSファイルが必要です。少なくとも1つの地域のBIOSをインストールして、その地域のゲームをプレイできます。最高の互換性のため、すべての地域のBIOSをインストールすることをお勧めします。";
+
+"bios.nds.title" = "Nintendo DS (NDS)";
+"bios.nds.footer" = "NDSは内蔵のオープンソースBIOS代替品を使用します。追加の設定は不要です。";
+"bios.nds.builtin" = "内蔵オープンソースBIOSを使用中";
+
+"bios.import" = "BIOSファイルをインポート";
+"bios.import.section" = "ファイルインポート";
+"bios.import.footer" = "ファイルアプリまたはiCloud DriveからBIOSファイルを選択します。ファイル名は標準名と一致する必要があります（例：scph5501.bin）。";
+"bios.import.success" = "%d個のBIOSファイルをインポートしました";
+"bios.import.partial" = "%d個のファイルをインポートしました。以下のファイルは失敗しました：\n%@";
+"bios.directory" = "BIOSディレクトリ";
+
+"bios.help.title" = "ヘルプ";
+"bios.help.whatIs" = "BIOSとは？";
+"bios.help.whatIs.content" = "BIOS（基本入出力システム）はゲーム機のファームウェアプログラムです。一部のエミュレータはゲームを正しく実行するために元のBIOSファイルが必要です。PlayStationエミュレータには公式BIOSファイルが必要ですが、NDSエミュレータはオープンソースの代替品を使用できます。";
+"bios.help.whereToGet" = "BIOSファイルの入手方法";
+"bios.help.whereToGet.content" = "著作権の制限により、公式BIOSファイルを提供することはできません。お持ちのゲーム機からBIOSファイルを抽出する必要があります。物理ハードウェアからBIOSをダンプする方法を説明するチュートリアルがオンラインに多数あります。対応するコンソールを合法的に所有していることを確認してください。";
+"bios.help.fileNames" = "BIOSファイル名";
+"bios.help.fileNames.ps1" = "PS1 BIOSファイル：";
+
+"bios.error.unknownFile" = "不明なBIOSファイルです。ファイル名を確認してください。";
+"bios.error.accessDenied" = "ファイルにアクセスできません。ファイルの権限を確認してください。";
+"bios.error.copyFailed" = "ファイルのコピーに失敗しました：%@";
+
+// BIOS Alert
+"bios.alert.title" = "BIOSファイルが必要です";
+"bios.alert.goToSettings" = "設定へ移動";
+"bios.alert.message.PS1" = "PlayStationゲームには公式BIOSファイルが必要です。設定からBIOSファイル（例：scph5501.bin）をインポートしてください。";
+
+// MARK: - Pause Menu
+"pause.resume" = "再開";
+"pause.save" = "セーブ";
+"pause.saveStates" = "ステートセーブ";
+"pause.screenshot" = "スクリーンショット";
+"pause.screenshot.saved" = "スクリーンショットを保存しました";
+"pause.speed" = "速度";
+"pause.speed.current" = "速度：%@";
+"pause.cheats" = "チート";
+"pause.reset" = "リセット";
+"pause.info" = "情報";
+"pause.gameInfo" = "ゲーム情報";
+"pause.skin" = "スキン";
+"pause.controllerSkin" = "コントローラースキン";
+"pause.quit" = "終了";
+
+// MARK: - BIOS File Names
+"bios.region.japan" = "日本";
+"bios.region.usa" = "北米";
+"bios.region.europe" = "欧州";
+"bios.region.usa.old" = "旧版北米";
+
+// MARK: - Display Settings
+"settings.display.gameScale" = "ゲーム画面スケール";
+
+// MARK: - Import Help
+"import.help.button" = "インポートヘルプ";
+"import.help.nav.title" = "インポートヘルプ";
+"import.help.title" = "ゲームのインポート方法";
+"import.help.subtitle" = "ROMファイルをYearnにインポートする方法を学ぶ";
+"import.help.systems.title" = "対応システム";
+"import.help.methods.title" = "インポート方法";
+"import.help.method.files" = "ファイルを選択";
+"import.help.method.files.desc" = "ファイルアプリから1つ以上のROMファイルを選択";
+"import.help.method.folder" = "フォルダを選択";
+"import.help.method.folder.desc" = "フォルダ内のすべてのゲームを一度にインポート";
+"import.help.method.icloud" = "iCloud Drive";
+"import.help.method.icloud.desc" = "iCloud DriveからROMファイルを選択";
+"import.help.method.airdrop" = "AirDrop";
+"import.help.method.airdrop.desc" = "他のデバイスからAirDropでROMファイルを受信";
+"import.help.tips.title" = "ヒント";
+"import.help.tip.1" = "ROMファイルの拡張子が正しいことを確認（.nes、.sfc、.gbaなど）";
+"import.help.tip.2" = "PS1ゲームは.bin/.cue、.iso、または.chd形式が必要";
+"import.help.tip.3" = "インポート後、ゲームはシステム別に自動整理";
+"import.help.tip.4" = "設定でインポートしたゲームを管理できます";
+"import.help.bios.title" = "BIOSについて";
+"import.help.bios.desc" = "PlayStation (PS1) ゲームを実行するにはBIOSファイルが必要です。設定 > BIOSファイルでBIOSをインポートしてください。他のプラットフォームは追加のBIOSファイルは不要です。";

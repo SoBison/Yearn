@@ -1,0 +1,103 @@
+{
+  "": {
+    "swift-dependencies": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnCore.build/master.swiftdeps"
+  },
+  "/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/Audio/AudioBuffer.swift": {
+    "dependencies": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnCore.build/AudioBuffer.d",
+    "object": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnCore.build/AudioBuffer.swift.o",
+    "swiftmodule": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnCore.build/AudioBuffer~partial.swiftmodule",
+    "swift-dependencies": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnCore.build/AudioBuffer.swiftdeps",
+    "diagnostics": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnCore.build/AudioBuffer.dia"
+  },
+  "/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/Audio/AudioEngine.swift": {
+    "dependencies": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnCore.build/AudioEngine.d",
+    "object": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnCore.build/AudioEngine.swift.o",
+    "swiftmodule": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnCore.build/AudioEngine~partial.swiftmodule",
+    "swift-dependencies": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnCore.build/AudioEngine.swiftdeps",
+    "diagnostics": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnCore.build/AudioEngine.dia"
+  },
+  "/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/Emulator/EmulatorManager.swift": {
+    "dependencies": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnCore.build/EmulatorManager.d",
+    "object": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnCore.build/EmulatorManager.swift.o",
+    "swiftmodule": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnCore.build/EmulatorManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnCore.build/EmulatorManager.swiftdeps",
+    "diagnostics": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnCore.build/EmulatorManager.dia"
+  },
+  "/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/Emulator/EmulatorState.swift": {
+    "dependencies": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnCore.build/EmulatorState.d",
+    "object": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnCore.build/EmulatorState.swift.o",
+    "swiftmodule": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnCore.build/EmulatorState~partial.swiftmodule",
+    "swift-dependencies": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnCore.build/EmulatorState.swiftdeps",
+    "diagnostics": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnCore.build/EmulatorState.dia"
+  },
+  "/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/Input/InputManager.swift": {
+    "dependencies": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnCore.build/InputManager.d",
+    "object": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnCore.build/InputManager.swift.o",
+    "swiftmodule": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnCore.build/InputManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnCore.build/InputManager.swiftdeps",
+    "diagnostics": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnCore.build/InputManager.dia"
+  },
+  "/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/Input/VirtualController.swift": {
+    "dependencies": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnCore.build/VirtualController.d",
+    "object": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnCore.build/VirtualController.swift.o",
+    "swiftmodule": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnCore.build/VirtualController~partial.swiftmodule",
+    "swift-dependencies": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnCore.build/VirtualController.swiftdeps",
+    "diagnostics": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnCore.build/VirtualController.dia"
+  },
+  "/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/Libretro/CoreAdapter.swift": {
+    "dependencies": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnCore.build/CoreAdapter.d",
+    "object": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnCore.build/CoreAdapter.swift.o",
+    "swiftmodule": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnCore.build/CoreAdapter~partial.swiftmodule",
+    "swift-dependencies": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnCore.build/CoreAdapter.swiftdeps",
+    "diagnostics": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnCore.build/CoreAdapter.dia"
+  },
+  "/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/Libretro/LibretroBridge.swift": {
+    "dependencies": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnCore.build/LibretroBridge.d",
+    "object": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnCore.build/LibretroBridge.swift.o",
+    "swiftmodule": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnCore.build/LibretroBridge~partial.swiftmodule",
+    "swift-dependencies": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnCore.build/LibretroBridge.swiftdeps",
+    "diagnostics": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnCore.build/LibretroBridge.dia"
+  },
+  "/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/Libretro/LibretroTypes.swift": {
+    "dependencies": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnCore.build/LibretroTypes.d",
+    "object": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnCore.build/LibretroTypes.swift.o",
+    "swiftmodule": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnCore.build/LibretroTypes~partial.swiftmodule",
+    "swift-dependencies": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnCore.build/LibretroTypes.swiftdeps",
+    "diagnostics": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnCore.build/LibretroTypes.dia"
+  },
+  "/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/SaveState/SaveStateManager.swift": {
+    "dependencies": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnCore.build/SaveStateManager.d",
+    "object": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnCore.build/SaveStateManager.swift.o",
+    "swiftmodule": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnCore.build/SaveStateManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnCore.build/SaveStateManager.swiftdeps",
+    "diagnostics": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnCore.build/SaveStateManager.dia"
+  },
+  "/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/Video/MetalView.swift": {
+    "dependencies": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnCore.build/MetalView.d",
+    "object": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnCore.build/MetalView.swift.o",
+    "swiftmodule": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnCore.build/MetalView~partial.swiftmodule",
+    "swift-dependencies": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnCore.build/MetalView.swiftdeps",
+    "diagnostics": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnCore.build/MetalView.dia"
+  },
+  "/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/Video/VideoBuffer.swift": {
+    "dependencies": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnCore.build/VideoBuffer.d",
+    "object": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnCore.build/VideoBuffer.swift.o",
+    "swiftmodule": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnCore.build/VideoBuffer~partial.swiftmodule",
+    "swift-dependencies": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnCore.build/VideoBuffer.swiftdeps",
+    "diagnostics": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnCore.build/VideoBuffer.dia"
+  },
+  "/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/Video/VideoRenderer.swift": {
+    "dependencies": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnCore.build/VideoRenderer.d",
+    "object": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnCore.build/VideoRenderer.swift.o",
+    "swiftmodule": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnCore.build/VideoRenderer~partial.swiftmodule",
+    "swift-dependencies": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnCore.build/VideoRenderer.swiftdeps",
+    "diagnostics": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnCore.build/VideoRenderer.dia"
+  },
+  "/Users/ugreen/Desktop/work/Yearn/YearnCore/Sources/YearnCore/YearnCore.swift": {
+    "dependencies": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnCore.build/YearnCore.d",
+    "object": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnCore.build/YearnCore.swift.o",
+    "swiftmodule": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnCore.build/YearnCore~partial.swiftmodule",
+    "swift-dependencies": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnCore.build/YearnCore.swiftdeps",
+    "diagnostics": "/Users/ugreen/Desktop/work/Yearn/YearnAdapters/.build/arm64-apple-macosx/debug/YearnCore.build/YearnCore.dia"
+  }
+}

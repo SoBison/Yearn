@@ -1,0 +1,489 @@
+/* 
+  Localizable.strings (简体中文)
+  Yearn
+*/
+
+// MARK: - General
+"app.name" = "Yearn";
+"common.done" = "完成";
+"common.cancel" = "取消";
+"common.save" = "保存";
+"common.delete" = "删除";
+"common.edit" = "编辑";
+"common.ok" = "确定";
+"common.error" = "错误";
+"common.success" = "成功";
+"common.loading" = "加载中...";
+"common.search" = "搜索";
+"common.settings" = "设置";
+"common.back" = "返回";
+"common.next" = "下一步";
+"common.skip" = "跳过";
+"common.retry" = "重试";
+"common.close" = "关闭";
+"common.share" = "分享";
+"common.favorite" = "收藏";
+"common.unfavorite" = "取消收藏";
+
+// MARK: - Tab Bar
+"tab.library" = "游戏库";
+"tab.settings" = "设置";
+
+// MARK: - Library
+"library.title" = "游戏库";
+"library.empty.title" = "暂无游戏";
+"library.empty.message" = "导入ROM文件开始游戏。\n\n支持：FC、SFC、GB/GBC、GBA、N64、NDS、MD、PS1";
+"library.import" = "导入文件";
+"library.import.folder" = "导入文件夹";
+"library.recent" = "最近游玩";
+"library.favorites" = "收藏夹";
+"library.all" = "全部游戏";
+"library.search.placeholder" = "搜索游戏...";
+"library.sort.name" = "名称";
+"library.sort.date" = "添加日期";
+"library.sort.lastPlayed" = "最近游玩";
+"library.sort.system" = "平台";
+"library.sortBy" = "排序";
+"library.filter.all" = "全部平台";
+"library.viewMode" = "视图";
+"library.viewMode.grid" = "网格";
+"library.viewMode.list" = "列表";
+"library.game.play" = "开始游戏";
+"library.game.delete" = "删除游戏";
+"library.game.delete.confirm" = "确定要删除「%@」吗？此操作无法撤销。";
+"library.game.info" = "游戏信息";
+"library.game.cover" = "更换封面";
+
+// MARK: - Game Info
+"gameInfo.fileInfo" = "文件信息";
+"gameInfo.system" = "平台";
+"gameInfo.file" = "文件";
+"gameInfo.size" = "大小";
+"gameInfo.added" = "添加时间";
+"gameInfo.extensions" = "支持的扩展名";
+
+// MARK: - Game Systems
+"system.nes" = "FC";
+"system.snes" = "SFC";
+"system.gbc" = "GB/GBC";
+"system.gba" = "GBA";
+"system.n64" = "N64";
+"system.nds" = "NDS";
+"system.genesis" = "MD";
+"system.ps1" = "PS1";
+
+// MARK: - Emulation
+"emulation.pause" = "暂停";
+"emulation.resume" = "继续";
+"emulation.reset" = "重置";
+"emulation.quit" = "退出游戏";
+"emulation.quit.confirm" = "确定要退出吗？未保存的进度将会丢失。";
+"emulation.saveState" = "即时存档";
+"emulation.loadState" = "读取存档";
+"emulation.quickSave" = "快速存档";
+"emulation.quickLoad" = "快速读档";
+"emulation.screenshot" = "截图";
+"emulation.screenshot.saved" = "截图已保存";
+"emulation.fastForward" = "快进";
+"emulation.slowMotion" = "慢动作";
+"emulation.speed" = "速度";
+"emulation.cheats" = "金手指";
+"emulation.rewind" = "回放";
+
+// MARK: - Save States
+"saveStates.title" = "即时存档";
+"saveStates.slot" = "存档位 %d";
+"saveStates.quickSave" = "快速存档";
+"saveStates.empty" = "空";
+"saveStates.noStates" = "暂无存档";
+"saveStates.noStates.message" = "保存游戏进度以便稍后继续";
+"saveStates.delete" = "删除存档";
+"saveStates.delete.confirm" = "确定要删除此存档吗？";
+"saveStates.load" = "读取";
+"saveStates.save" = "保存";
+
+// MARK: - Cheats
+"cheats.title" = "金手指";
+"cheats.add" = "添加金手指";
+"cheats.edit" = "编辑金手指";
+"cheats.name" = "名称";
+"cheats.code" = "代码";
+"cheats.format" = "格式";
+"cheats.enabled" = "启用";
+"cheats.empty" = "暂无金手指";
+"cheats.empty.message" = "添加金手指代码来增强游戏体验";
+"cheats.invalid" = "无效的金手指代码";
+
+// MARK: - Settings
+"settings.title" = "设置";
+"settings.appearance" = "外观";
+"settings.general" = "通用";
+"settings.display" = "显示";
+"settings.audio" = "音频";
+"settings.controls" = "控制器";
+"settings.saves" = "存档";
+"settings.cores" = "模拟器核心";
+"settings.storage" = "存储空间";
+"settings.about" = "关于";
+"settings.accessibility" = "辅助功能";
+
+// MARK: - General Settings
+"settings.general.haptics" = "触觉反馈";
+"settings.general.haptics.desc" = "按下虚拟按钮时提供触觉反馈。";
+"settings.general.keepAwake" = "保持屏幕常亮";
+"settings.general.showFPS" = "显示帧率";
+"settings.general.language" = "语言";
+"settings.general.language.system" = "跟随系统";
+"language.available" = "可用语言";
+"language.restart.hint" = "语言将立即生效。";
+
+// MARK: - Display Settings
+"settings.display.filter" = "视频滤镜";
+"settings.display.filter.none" = "像素完美";
+"settings.display.filter.smooth" = "平滑";
+"settings.display.filter.crt" = "CRT显像管";
+"settings.display.filter.lcd" = "LCD液晶";
+"settings.display.aspectRatio" = "宽高比";
+
+// MARK: - Audio Settings
+"settings.audio.volume" = "音量";
+"settings.audio.mute" = "静音";
+
+// MARK: - Controller Settings
+"settings.controls.title" = "控制器设置";
+"settings.controls.virtual" = "虚拟控制器";
+"settings.controls.opacity" = "控制器透明度";
+"settings.controls.size" = "大小";
+"settings.controls.haptics" = "触觉反馈";
+"settings.controls.labels" = "显示按钮标签";
+"settings.controls.autoHide" = "闲置时自动隐藏";
+"settings.controls.skin" = "控制器皮肤";
+"settings.controls.vibration" = "振动";
+"settings.controls.mapping" = "按键映射";
+"settings.controls.connected" = "外接控制器";
+"settings.controls.noControllers" = "未连接控制器";
+"settings.controls.noControllers.desc" = "连接蓝牙或MFi控制器来使用。";
+"settings.controls.supported" = "支持的控制器包括PlayStation DualShock/DualSense、Xbox控制器、Nintendo Switch Pro控制器和MFi认证控制器。";
+"settings.controls.turbo" = "连发设置";
+
+// MARK: - Controller Skins
+"skin.default" = "默认";
+"skin.minimal" = "极简";
+"skin.retro" = "复古";
+"skin.neon" = "霓虹";
+"skin.nintendo" = "经典任天堂";
+"skin.playstation" = "PlayStation";
+"skin.xbox" = "Xbox";
+"skin.transparent" = "透明";
+"skin.darkMode" = "深色模式";
+"skin.custom" = "自定义皮肤";
+"skin.create" = "创建自定义皮肤";
+"skin.builtin" = "内置皮肤";
+
+// MARK: - Save Settings
+"settings.saves.autoSave" = "自动存档";
+"settings.saves.autoSave.interval" = "自动存档间隔";
+"settings.saves.autoSave.interval.30sec" = "30秒";
+"settings.saves.autoSave.interval.1min" = "1分钟";
+"settings.saves.autoSave.interval.2min" = "2分钟";
+"settings.saves.autoSave.interval.5min" = "5分钟";
+"settings.saves.autoSave.interval.10min" = "10分钟";
+"settings.saves.icloud" = "iCloud同步";
+"settings.saves.icloud.description" = "跨设备同步存档";
+"settings.saves.desc" = "自动存档会定期创建备份存档。iCloud同步可在多设备间同步存档。";
+
+// MARK: - Storage
+"settings.storage.used" = "已用空间";
+"settings.storage.roms" = "ROM文件";
+"settings.storage.saves" = "即时存档";
+"settings.storage.battery" = "电池存档";
+"settings.storage.total" = "总计";
+"settings.storage.artwork" = "封面图片";
+"settings.storage.clearCache" = "清除缓存";
+"settings.storage.clearAll" = "清除所有数据";
+"settings.storage.clearAll.confirm" = "这将删除所有ROM、存档和设置。此操作无法撤销。";
+
+// MARK: - Cores Settings
+"settings.cores.manage" = "管理核心";
+"settings.cores.scanning" = "正在扫描核心...";
+"settings.cores.notFound" = "未找到核心";
+"settings.cores.notFound.desc" = "导入libretro核心以启用模拟。";
+"settings.cores.info" = "核心信息";
+"settings.cores.core" = "核心";
+"settings.cores.status" = "状态";
+"settings.cores.ready" = "就绪";
+"settings.cores.performance" = "性能";
+"settings.cores.frameSkip" = "跳帧";
+"settings.cores.audioLatency" = "音频延迟";
+"settings.cores.audioLatency.low" = "低 (32ms)";
+"settings.cores.audioLatency.medium" = "中 (64ms)";
+"settings.cores.audioLatency.high" = "高 (128ms)";
+"settings.cores.systemSpecific" = "系统特定设置";
+"settings.cores.noAdditional" = "无额外设置";
+"settings.cores.gbc.palette" = "调色板";
+"settings.cores.gbc.palette.default" = "默认";
+"settings.cores.gbc.palette.grayscale" = "灰度";
+"settings.cores.gbc.palette.green" = "经典绿";
+"settings.cores.gbc.palette.brown" = "怀旧棕";
+"settings.cores.nds.layout" = "屏幕布局";
+"settings.cores.nds.layout.vertical" = "垂直";
+"settings.cores.nds.layout.vertical.desc" = "上下排列";
+"settings.cores.nds.layout.horizontal" = "水平";
+"settings.cores.nds.layout.horizontal.desc" = "左右排列";
+"settings.cores.nds.layout.single" = "单屏";
+"settings.cores.nds.layout.single.desc" = "一次显示一个屏幕";
+
+// MARK: - About
+"settings.about.version" = "版本";
+"settings.about.build" = "构建号";
+"settings.about.licenses" = "开源许可证";
+"settings.about.licenses.content" = "Yearn 使用以下开源项目：\n\n• libretro API - MIT 许可证\n• FCEUmm (NES/FC) - GPL v2\n• bsnes (SNES/SFC) - GPL v3\n• Gambatte (GB/GBC) - GPL v2\n• mGBA (GBA) - MPL 2.0\n• Mupen64Plus Next (N64) - GPL v2\n• melonDS (NDS) - GPL v3\n• ClownMDEmu (MD/Genesis) - AGPL v3\n• SwanStation (PS1) - GPL v3\n\n核心框架 (YearnCore) 采用 GPL v3 许可证发布。\n\n完整许可证文本请参阅源代码仓库。";
+"settings.about.licenses.bios" = "内置 BIOS 文件";
+"settings.about.acknowledgements" = "致谢";
+"settings.about.acknowledgements.thanks" = "特别感谢";
+"settings.about.acknowledgements.libretro" = "感谢 libretro 团队创建了出色的模拟框架。";
+"settings.about.acknowledgements.cores" = "感谢所有模拟器核心开发者的杰出工作。";
+"settings.about.acknowledgements.community" = "感谢复古游戏社区让经典游戏得以延续。";
+"settings.about.acknowledgements.contributors" = "贡献者";
+"settings.about.acknowledgements.contributors.desc" = "本项目是开源的，欢迎贡献！";
+"settings.about.sourceCode" = "源代码";
+"settings.about.rate" = "在App Store评分";
+"settings.about.contact" = "联系我们";
+
+// MARK: - Statistics
+"stats.title" = "统计";
+"stats.totalGames" = "游戏总数";
+"stats.totalPlayTime" = "总游戏时长";
+"stats.favoriteSystem" = "最爱平台";
+"stats.mostPlayed" = "玩得最多";
+"stats.recentlyPlayed" = "最近游玩";
+"stats.overview" = "概览";
+"stats.gamesBySystem" = "按平台分类";
+"stats.recentActivity" = "近期活动";
+"stats.storage" = "存储空间";
+"stats.totalSize" = "总大小";
+"stats.favorites" = "收藏";
+"stats.chartsRequireIOS17" = "图表功能需要 iOS 17+";
+"stats.noRecentGames" = "暂无最近游玩的游戏";
+"stats.calculating" = "计算中...";
+"stats.roms" = "ROM 文件";
+"stats.saveStates" = "即时存档";
+"stats.batterySaves" = "电池存档";
+"stats.cores" = "模拟器核心";
+
+// MARK: - Errors
+"error.import.failed" = "导入游戏失败";
+"error.import.unsupported" = "不支持的文件格式";
+"error.core.notFound" = "未找到模拟器核心";
+"error.core.loadFailed" = "加载模拟器核心失败";
+"error.game.loadFailed" = "加载游戏失败";
+"error.save.failed" = "保存失败";
+"error.load.failed" = "加载失败";
+"error.network" = "网络错误";
+"error.unknown" = "发生未知错误";
+
+// MARK: - Time
+"time.hours" = "%d小时";
+"time.minutes" = "%d分钟";
+"time.seconds" = "%d秒";
+"time.never" = "从未";
+"time.justNow" = "刚刚";
+
+// MARK: - Themes
+"theme.title" = "主题";
+"theme.current" = "当前主题";
+"theme.system" = "系统";
+"theme.gaming" = "游戏主机";
+"theme.styles" = "风格";
+"theme.preview.game" = "游戏";
+
+// Theme Names
+"theme.default" = "默认";
+"theme.default.desc" = "简洁现代的系统风格";
+"theme.nintendo" = "任天堂经典";
+"theme.nintendo.desc" = "经典FC/NES红白机风格";
+"theme.snes" = "超级任天堂";
+"theme.snes.desc" = "多彩的SFC按钮风格";
+"theme.gameboy" = "Game Boy";
+"theme.gameboy.desc" = "经典绿色单色显示屏";
+"theme.playstation" = "PlayStation";
+"theme.playstation.desc" = "索尼PlayStation深色主题";
+"theme.xbox" = "Xbox";
+"theme.xbox.desc" = "微软Xbox绿色主题";
+"theme.genesis" = "世嘉MD";
+"theme.genesis.desc" = "世嘉蓝色速度风格";
+"theme.arcade" = "复古街机";
+"theme.arcade.desc" = "霓虹灯光与暗色机柜";
+"theme.cyberpunk" = "赛博朋克";
+"theme.cyberpunk.desc" = "未来主义霓虹科技风";
+"theme.pixel" = "像素艺术";
+"theme.pixel.desc" = "8位风格暖色调";
+"theme.midnight" = "午夜";
+"theme.midnight.desc" = "纯黑OLED友好主题";
+"theme.sunset" = "日落";
+"theme.sunset.desc" = "温暖的渐变日落色";
+"theme.ocean" = "海洋";
+"theme.ocean.desc" = "深海蓝色调";
+"theme.forest" = "森林";
+"theme.forest.desc" = "自然绿色林地风格";
+
+// MARK: - Controller Settings
+"controller.title" = "控制器";
+"controller.connected" = "已连接的控制器";
+"controller.noConnected" = "未连接控制器";
+"controller.refresh" = "刷新";
+"controller.supported" = "支持 Xbox、PlayStation、Nintendo Switch Pro 和 MFi 控制器。";
+"controller.unknown" = "未知控制器";
+"controller.extended" = "扩展手柄";
+"controller.basic" = "基础控制器";
+"controller.physical" = "实体控制器";
+"controller.vibration" = "振动反馈";
+"controller.hideVirtual" = "连接时隐藏虚拟按键";
+"controller.leftStickDPad" = "左摇杆作为方向键";
+"controller.rightStickCamera" = "右摇杆控制视角";
+"controller.deadzone" = "摇杆死区";
+"controller.mapping" = "按键映射";
+"controller.virtual" = "虚拟控制器";
+"controller.opacity" = "透明度";
+"controller.size" = "大小";
+"controller.showLabels" = "显示按钮标签";
+"controller.haptics" = "触觉反馈";
+"controller.autoHide" = "闲置时自动隐藏";
+"controller.skin" = "控制器皮肤";
+"controller.presets" = "快速预设";
+"controller.preset.compact" = "紧凑（小手）";
+"controller.preset.default" = "默认";
+"controller.preset.large" = "大号（大手）";
+"controller.turbo" = "连发";
+"controller.turbo.settings" = "连发设置";
+"controller.turbo.enable" = "启用连发";
+"controller.turbo.speed" = "连发速度";
+"controller.turbo.desc" = "连发模式会自动快速按下按钮。";
+"controller.turbo.buttons" = "连发按钮";
+"controller.mapping.face" = "功能按钮";
+"controller.mapping.dpad" = "方向键";
+"controller.mapping.shoulder" = "肩键";
+"controller.mapping.thumbstick" = "摇杆按钮";
+"controller.mapping.system" = "系统按钮";
+"controller.mapping.reset" = "恢复默认";
+"controller.mapping.press" = "请按下按钮...";
+"controller.mapping.notSet" = "未设置";
+"controller.button.a" = "A 按钮";
+"controller.button.b" = "B 按钮";
+"controller.button.x" = "X 按钮";
+"controller.button.y" = "Y 按钮";
+"controller.button.up" = "方向键 上";
+"controller.button.down" = "方向键 下";
+"controller.button.left" = "方向键 左";
+"controller.button.right" = "方向键 右";
+"controller.button.l" = "L1 / L";
+"controller.button.r" = "R1 / R";
+"controller.button.l2" = "L2 / ZL";
+"controller.button.r2" = "R2 / ZR";
+"controller.button.l3" = "L3（左摇杆）";
+"controller.button.r3" = "R3（右摇杆）";
+"controller.button.start" = "Start / +";
+"controller.button.select" = "Select / -";
+
+// MARK: - External Display
+"display.title" = "外接显示器";
+"display.status" = "连接状态";
+"display.status.desc" = "通过 AirPlay、HDMI 转接器或 USB-C 将游戏投屏到电视。";
+"display.connected" = "已连接外接显示器";
+"display.notConnected" = "未连接外接显示器";
+"display.mode" = "显示模式";
+"display.mode.gameOnly" = "仅游戏画面";
+"display.mode.gameOnly.desc" = "电视上只显示游戏画面";
+"display.mode.fullMirror" = "完整镜像";
+"display.mode.fullMirror.desc" = "镜像整个屏幕包括控制器";
+"display.mode.gameWithBorder" = "带边框游戏";
+"display.mode.gameWithBorder.desc" = "显示带装饰边框的游戏画面";
+"display.options" = "选项";
+"display.showControlsOnDevice" = "在设备上显示控制器";
+"display.scale" = "显示缩放";
+"display.tips" = "连接提示";
+"display.tip.airplay" = "AirPlay：从右上角下滑，点击屏幕镜像";
+"display.tip.hdmi" = "HDMI：使用 Lightning/USB-C 转 HDMI 转接器";
+"display.tip.usbc" = "USB-C：直接连接兼容的显示器";
+
+// MARK: - Pause Menu
+"pause.resume" = "继续";
+"pause.save" = "存档";
+"pause.saveStates" = "即时存档";
+"pause.screenshot" = "截图";
+"pause.screenshot.saved" = "截图已保存";
+"pause.speed" = "速度";
+"pause.speed.current" = "速度：%@";
+"pause.cheats" = "金手指";
+"pause.reset" = "重置";
+"pause.info" = "信息";
+"pause.gameInfo" = "游戏信息";
+"pause.skin" = "皮肤";
+"pause.controllerSkin" = "控制器皮肤";
+"pause.quit" = "退出";
+"settings.display.gameScale" = "游戏画面缩放";
+
+// MARK: - BIOS Settings
+"settings.bios" = "BIOS 文件";
+"settings.bios.manage" = "管理 BIOS";
+"settings.bios.ps1.missing" = "PS1 BIOS 缺失";
+
+"bios.ps1.title" = "PlayStation (PS1)";
+"bios.ps1.footer" = "PS1 模拟需要官方 BIOS 文件。至少安装一个地区的 BIOS 才能运行该地区的游戏。建议安装所有地区的 BIOS 以获得最佳兼容性。";
+
+"bios.nds.title" = "Nintendo DS (NDS)";
+"bios.nds.footer" = "NDS 使用内置的开源 BIOS 替代方案，无需额外配置。";
+"bios.nds.builtin" = "正在使用内置开源 BIOS";
+
+"bios.import" = "导入 BIOS 文件";
+"bios.import.section" = "文件导入";
+"bios.import.footer" = "从文件应用或 iCloud 云盘中选择 BIOS 文件。文件名必须与标准名称匹配（如 scph5501.bin）。";
+"bios.import.success" = "成功导入 %d 个 BIOS 文件";
+"bios.import.partial" = "成功导入 %d 个文件。以下文件导入失败：\n%@";
+"bios.directory" = "BIOS 目录";
+
+"bios.help.title" = "帮助";
+"bios.help.whatIs" = "什么是 BIOS？";
+"bios.help.whatIs.content" = "BIOS（基本输入输出系统）是游戏主机的固件程序。某些模拟器需要原版 BIOS 文件才能正确运行游戏。PlayStation 模拟器需要官方 BIOS 文件，而 NDS 模拟器可以使用开源替代方案。";
+"bios.help.whereToGet" = "如何获取 BIOS 文件？";
+"bios.help.whereToGet.content" = "由于版权限制，我们无法提供官方 BIOS 文件。您需要从自己的游戏主机中提取 BIOS 文件。网上有很多教程说明如何从实体硬件导出 BIOS。请确保您合法拥有相应的游戏主机。";
+"bios.help.fileNames" = "BIOS 文件名";
+"bios.help.fileNames.ps1" = "PS1 BIOS 文件：";
+
+"bios.error.unknownFile" = "未知的 BIOS 文件，请检查文件名。";
+"bios.error.accessDenied" = "无法访问该文件，请检查文件权限。";
+"bios.error.copyFailed" = "文件复制失败：%@";
+
+// MARK: - BIOS Alert
+"bios.alert.title" = "需要 BIOS 文件";
+"bios.alert.goToSettings" = "前往设置";
+"bios.alert.message.PS1" = "PlayStation 游戏需要官方 BIOS 文件。请前往设置导入 BIOS 文件（如 scph5501.bin）。";
+
+// MARK: - BIOS File Names
+"bios.region.japan" = "日本";
+"bios.region.usa" = "北美";
+"bios.region.europe" = "欧洲";
+"bios.region.usa.old" = "旧版北美";
+
+// MARK: - Import Help
+"import.help.button" = "导入帮助";
+"import.help.nav.title" = "导入帮助";
+"import.help.title" = "如何导入游戏";
+"import.help.subtitle" = "了解如何将 ROM 文件导入到 Yearn";
+"import.help.systems.title" = "支持的平台";
+"import.help.methods.title" = "导入方式";
+"import.help.method.files" = "选择文件";
+"import.help.method.files.desc" = "从文件应用中选择一个或多个 ROM 文件";
+"import.help.method.folder" = "选择文件夹";
+"import.help.method.folder.desc" = "一次性导入整个文件夹中的所有游戏";
+"import.help.method.icloud" = "iCloud 云盘";
+"import.help.method.icloud.desc" = "从 iCloud 云盘中选择 ROM 文件";
+"import.help.method.airdrop" = "AirDrop";
+"import.help.method.airdrop.desc" = "从其他设备通过 AirDrop 接收 ROM 文件";
+"import.help.tips.title" = "小贴士";
+"import.help.tip.1" = "确保 ROM 文件扩展名正确（如 .nes、.sfc、.gba 等）";
+"import.help.tip.2" = "PS1 游戏需要 .bin/.cue、.iso 或 .chd 格式";
+"import.help.tip.3" = "导入后游戏会自动按平台分类";
+"import.help.tip.4" = "可以在设置中管理已导入的游戏";
+"import.help.bios.title" = "BIOS 说明";
+"import.help.bios.desc" = "PlayStation (PS1) 游戏需要 BIOS 文件才能运行。请在设置 > BIOS 文件中导入 BIOS。其他平台无需额外 BIOS 文件。";

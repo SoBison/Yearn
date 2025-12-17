@@ -1,0 +1,493 @@
+/* 
+  Localizable.strings (English)
+  Yearn
+*/
+
+// MARK: - General
+"app.name" = "Yearn";
+"common.done" = "Done";
+"common.cancel" = "Cancel";
+"common.save" = "Save";
+"common.delete" = "Delete";
+"common.edit" = "Edit";
+"common.ok" = "OK";
+"common.error" = "Error";
+"common.success" = "Success";
+"common.loading" = "Loading...";
+"common.search" = "Search";
+"common.settings" = "Settings";
+"common.back" = "Back";
+"common.next" = "Next";
+"common.skip" = "Skip";
+"common.retry" = "Retry";
+"common.close" = "Close";
+"common.share" = "Share";
+"common.favorite" = "Favorite";
+"common.unfavorite" = "Unfavorite";
+
+// MARK: - Tab Bar
+"tab.library" = "Library";
+"tab.settings" = "Settings";
+
+// MARK: - Library
+"library.title" = "Game Library";
+"library.empty.title" = "No Games";
+"library.empty.message" = "Import ROM files to start playing.\n\nSupported: NES, SNES, GB/GBC, GBA, N64, NDS, Genesis, PS1";
+"library.import" = "Import Files";
+"library.import.folder" = "Import Folder";
+"library.recent" = "Recently Played";
+"library.favorites" = "Favorites";
+"library.all" = "All Games";
+"library.search.placeholder" = "Search games...";
+"library.sort.name" = "Name";
+"library.sort.date" = "Date Added";
+"library.sort.lastPlayed" = "Last Played";
+"library.sort.system" = "System";
+"library.sortBy" = "Sort By";
+"library.filter.all" = "All Systems";
+"library.viewMode" = "View";
+"library.viewMode.grid" = "Grid";
+"library.viewMode.list" = "List";
+"library.game.play" = "Play";
+"library.game.delete" = "Delete Game";
+"library.game.delete.confirm" = "Are you sure you want to delete \"%@\"? This action cannot be undone.";
+"library.game.info" = "Game Info";
+"library.game.cover" = "Change Cover";
+
+// MARK: - Game Info
+"gameInfo.fileInfo" = "File Info";
+"gameInfo.system" = "System";
+"gameInfo.file" = "File";
+"gameInfo.size" = "Size";
+"gameInfo.added" = "Added";
+"gameInfo.extensions" = "Supported Extensions";
+
+// MARK: - Game Systems
+"system.nes" = "NES";
+"system.snes" = "SNES";
+"system.gbc" = "GB/GBC";
+"system.gba" = "GBA";
+"system.n64" = "N64";
+"system.nds" = "NDS";
+"system.genesis" = "Genesis";
+"system.ps1" = "PS1";
+
+// MARK: - Emulation
+"emulation.pause" = "Pause";
+"emulation.resume" = "Resume";
+"emulation.reset" = "Reset";
+"emulation.quit" = "Quit Game";
+"emulation.quit.confirm" = "Are you sure you want to quit? Unsaved progress will be lost.";
+"emulation.saveState" = "Save State";
+"emulation.loadState" = "Load State";
+"emulation.quickSave" = "Quick Save";
+"emulation.quickLoad" = "Quick Load";
+"emulation.screenshot" = "Screenshot";
+"emulation.screenshot.saved" = "Screenshot saved";
+"emulation.fastForward" = "Fast Forward";
+"emulation.slowMotion" = "Slow Motion";
+"emulation.speed" = "Speed";
+"emulation.cheats" = "Cheats";
+"emulation.rewind" = "Rewind";
+
+// MARK: - Save States
+"saveStates.title" = "Save States";
+"saveStates.slot" = "Slot %d";
+"saveStates.quickSave" = "Quick Save";
+"saveStates.empty" = "Empty";
+"saveStates.noStates" = "No Save States";
+"saveStates.noStates.message" = "Save your progress to continue later";
+"saveStates.delete" = "Delete Save State";
+"saveStates.delete.confirm" = "Are you sure you want to delete this save state?";
+"saveStates.load" = "Load";
+"saveStates.save" = "Save";
+
+// MARK: - Cheats
+"cheats.title" = "Cheats";
+"cheats.add" = "Add Cheat";
+"cheats.edit" = "Edit Cheat";
+"cheats.name" = "Name";
+"cheats.code" = "Code";
+"cheats.format" = "Format";
+"cheats.enabled" = "Enabled";
+"cheats.empty" = "No Cheats";
+"cheats.empty.message" = "Add cheat codes to enhance your gameplay";
+"cheats.invalid" = "Invalid cheat code";
+
+// MARK: - Settings
+"settings.title" = "Settings";
+"settings.appearance" = "Appearance";
+"settings.general" = "General";
+"settings.display" = "Display";
+"settings.audio" = "Audio";
+"settings.controls" = "Controls";
+"settings.saves" = "Saves";
+"settings.cores" = "Emulator Cores";
+"settings.storage" = "Storage";
+"settings.about" = "About";
+"settings.accessibility" = "Accessibility";
+
+// MARK: - General Settings
+"settings.general.haptics" = "Haptic Feedback";
+"settings.general.haptics.desc" = "Haptic feedback provides tactile response when pressing virtual buttons.";
+"settings.general.keepAwake" = "Keep Screen Awake";
+"settings.general.showFPS" = "Show FPS Counter";
+"settings.general.language" = "Language";
+"settings.general.language.system" = "System Default";
+"language.available" = "Available Languages";
+"language.restart.hint" = "Language will be applied immediately.";
+
+// MARK: - Display Settings
+"settings.display.filter" = "Video Filter";
+"settings.display.filter.none" = "Pixel Perfect";
+"settings.display.filter.smooth" = "Smooth";
+"settings.display.filter.crt" = "CRT";
+"settings.display.filter.lcd" = "LCD";
+"settings.display.aspectRatio" = "Aspect Ratio";
+"settings.display.gameScale" = "Game Screen Scale";
+
+// MARK: - Audio Settings
+"settings.audio.volume" = "Volume";
+"settings.audio.mute" = "Mute";
+
+// MARK: - Controller Settings
+"settings.controls.title" = "Controller Settings";
+"settings.controls.virtual" = "Virtual Controller";
+"settings.controls.opacity" = "Controller Opacity";
+"settings.controls.size" = "Size";
+"settings.controls.haptics" = "Haptic Feedback";
+"settings.controls.labels" = "Show Button Labels";
+"settings.controls.autoHide" = "Auto-Hide When Idle";
+"settings.controls.skin" = "Controller Skins";
+"settings.controls.vibration" = "Vibration";
+"settings.controls.mapping" = "Button Mapping";
+"settings.controls.connected" = "External Controllers";
+"settings.controls.noControllers" = "No Controllers Connected";
+"settings.controls.noControllers.desc" = "Connect a Bluetooth or MFi controller to use it with Yearn.";
+"settings.controls.supported" = "Supported controllers include PlayStation DualShock/DualSense, Xbox controllers, Nintendo Switch Pro Controller, and MFi certified controllers.";
+"settings.controls.turbo" = "Turbo Settings";
+
+// MARK: - Controller Skins
+"skin.default" = "Default";
+"skin.minimal" = "Minimal";
+"skin.retro" = "Retro";
+"skin.neon" = "Neon";
+"skin.classicNintendo" = "Classic Nintendo";
+"skin.playStation" = "PlayStation";
+"skin.xbox" = "Xbox";
+"skin.transparent" = "Transparent";
+"skin.darkMode" = "Dark Mode";
+"skin.custom" = "Custom";
+"skin.create" = "Create Custom Skin";
+"skin.builtin" = "Built-in";
+"skin.category.standard" = "Standard";
+"skin.category.themed" = "Themed";
+"skin.category.special" = "Special";
+"skin.category.custom" = "Custom Skins";
+
+// MARK: - Save Settings
+"settings.saves.autoSave" = "Auto Save";
+"settings.saves.autoSave.interval" = "Auto Save Interval";
+"settings.saves.autoSave.interval.30sec" = "30 seconds";
+"settings.saves.autoSave.interval.1min" = "1 minute";
+"settings.saves.autoSave.interval.2min" = "2 minutes";
+"settings.saves.autoSave.interval.5min" = "5 minutes";
+"settings.saves.autoSave.interval.10min" = "10 minutes";
+"settings.saves.icloud" = "iCloud Sync";
+"settings.saves.icloud.description" = "Sync saves across devices";
+"settings.saves.desc" = "Auto save creates a backup save state periodically. iCloud sync keeps your saves across devices.";
+
+// MARK: - Storage
+"settings.storage.used" = "Storage Used";
+"settings.storage.roms" = "ROMs";
+"settings.storage.saves" = "Save States";
+"settings.storage.battery" = "Battery Saves";
+"settings.storage.total" = "Total";
+"settings.storage.artwork" = "Artwork";
+"settings.storage.clearCache" = "Clear Cache";
+"settings.storage.clearAll" = "Clear All Data";
+"settings.storage.clearAll.confirm" = "This will delete all ROMs, save states, and settings. This action cannot be undone.";
+
+// MARK: - Cores Settings
+"settings.cores.manage" = "Manage Cores";
+"settings.cores.scanning" = "Scanning for cores...";
+"settings.cores.notFound" = "No Cores Found";
+"settings.cores.notFound.desc" = "Import libretro cores to enable emulation.";
+"settings.cores.info" = "Core Information";
+"settings.cores.core" = "Core";
+"settings.cores.status" = "Status";
+"settings.cores.ready" = "Ready";
+"settings.cores.performance" = "Performance";
+"settings.cores.frameSkip" = "Frame Skip";
+"settings.cores.audioLatency" = "Audio Latency";
+"settings.cores.audioLatency.low" = "Low (32ms)";
+"settings.cores.audioLatency.medium" = "Medium (64ms)";
+"settings.cores.audioLatency.high" = "High (128ms)";
+"settings.cores.systemSpecific" = "System Specific";
+"settings.cores.noAdditional" = "No additional settings";
+"settings.cores.gbc.palette" = "Color Palette";
+"settings.cores.gbc.palette.default" = "Default";
+"settings.cores.gbc.palette.grayscale" = "Grayscale";
+"settings.cores.gbc.palette.green" = "Classic Green";
+"settings.cores.gbc.palette.brown" = "Pocket Brown";
+"settings.cores.nds.layout" = "Screen Layout";
+"settings.cores.nds.layout.vertical" = "Vertical";
+"settings.cores.nds.layout.vertical.desc" = "Screens stacked vertically";
+"settings.cores.nds.layout.horizontal" = "Horizontal";
+"settings.cores.nds.layout.horizontal.desc" = "Screens side by side";
+"settings.cores.nds.layout.single" = "Single Screen";
+"settings.cores.nds.layout.single.desc" = "Show one screen at a time";
+
+// MARK: - About
+"settings.about.version" = "Version";
+"settings.about.build" = "Build";
+"settings.about.licenses" = "Open Source Licenses";
+"settings.about.licenses.content" = "Yearn uses the following open source projects:\n\n• libretro API - MIT License\n• FCEUmm (NES) - GPL v2\n• bsnes (SNES) - GPL v3\n• Gambatte (GB/GBC) - GPL v2\n• mGBA (GBA) - MPL 2.0\n• Mupen64Plus Next (N64) - GPL v2\n• melonDS (NDS) - GPL v3\n• ClownMDEmu (Genesis/MD) - AGPL v3\n• SwanStation (PS1) - GPL v3\n\nThe core framework (YearnCore) is released under GPL v3.\n\nFull license texts are available in the source repository.";
+"settings.about.licenses.bios" = "Bundled BIOS Files";
+"settings.about.acknowledgements" = "Acknowledgements";
+"settings.about.acknowledgements.thanks" = "Special Thanks";
+"settings.about.acknowledgements.libretro" = "The libretro team for creating an amazing emulation framework.";
+"settings.about.acknowledgements.cores" = "All the emulator core developers for their incredible work.";
+"settings.about.acknowledgements.community" = "The retro gaming community for keeping classic games alive.";
+"settings.about.acknowledgements.contributors" = "Contributors";
+"settings.about.acknowledgements.contributors.desc" = "This project is open source. Contributions are welcome!";
+"settings.about.sourceCode" = "Source Code";
+"settings.about.rate" = "Rate on App Store";
+"settings.about.contact" = "Contact Us";
+
+// MARK: - Statistics
+"stats.title" = "Statistics";
+"stats.totalGames" = "Total Games";
+"stats.totalPlayTime" = "Total Play Time";
+"stats.favoriteSystem" = "Favorite System";
+"stats.mostPlayed" = "Most Played";
+"stats.recentlyPlayed" = "Recently Played";
+"stats.overview" = "Overview";
+"stats.gamesBySystem" = "Games by System";
+"stats.recentActivity" = "Recent Activity";
+"stats.storage" = "Storage";
+"stats.totalSize" = "Total Size";
+"stats.favorites" = "Favorites";
+"stats.chartsRequireIOS17" = "Charts require iOS 17+";
+"stats.noRecentGames" = "No games played recently";
+"stats.calculating" = "Calculating...";
+"stats.roms" = "ROMs";
+"stats.saveStates" = "Save States";
+"stats.batterySaves" = "Battery Saves";
+"stats.cores" = "Cores";
+
+// MARK: - Errors
+"error.import.failed" = "Failed to import game";
+"error.import.unsupported" = "Unsupported file format";
+"error.core.notFound" = "Emulator core not found";
+"error.core.loadFailed" = "Failed to load emulator core";
+"error.game.loadFailed" = "Failed to load game";
+"error.save.failed" = "Failed to save";
+"error.load.failed" = "Failed to load";
+"error.network" = "Network error";
+"error.unknown" = "An unknown error occurred";
+
+// MARK: - Time
+"time.hours" = "%d hours";
+"time.minutes" = "%d minutes";
+"time.seconds" = "%d seconds";
+"time.never" = "Never";
+"time.justNow" = "Just now";
+
+// MARK: - Themes
+"theme.title" = "Theme";
+"theme.current" = "Current Theme";
+"theme.system" = "System";
+"theme.gaming" = "Gaming Consoles";
+"theme.styles" = "Styles";
+"theme.preview.game" = "Game";
+
+// Theme Names
+"theme.default" = "Default";
+"theme.default.desc" = "Clean and modern system style";
+"theme.nintendo" = "Nintendo Classic";
+"theme.nintendo.desc" = "Inspired by the classic NES/Famicom";
+"theme.snes" = "Super Nintendo";
+"theme.snes.desc" = "Colorful SNES button style";
+"theme.gameboy" = "Game Boy";
+"theme.gameboy.desc" = "Classic green monochrome display";
+"theme.playstation" = "PlayStation";
+"theme.playstation.desc" = "Sony PlayStation inspired dark theme";
+"theme.xbox" = "Xbox";
+"theme.xbox.desc" = "Microsoft Xbox green accent theme";
+"theme.genesis" = "Sega Genesis";
+"theme.genesis.desc" = "Sega blue and speed style";
+"theme.arcade" = "Retro Arcade";
+"theme.arcade.desc" = "Neon lights and dark cabinets";
+"theme.cyberpunk" = "Cyberpunk";
+"theme.cyberpunk.desc" = "Futuristic neon cyber style";
+"theme.pixel" = "Pixel Art";
+"theme.pixel.desc" = "8-bit inspired warm colors";
+"theme.midnight" = "Midnight";
+"theme.midnight.desc" = "Pure dark OLED-friendly theme";
+"theme.sunset" = "Sunset";
+"theme.sunset.desc" = "Warm gradient sunset colors";
+"theme.ocean" = "Ocean";
+"theme.ocean.desc" = "Deep sea blue tones";
+"theme.forest" = "Forest";
+"theme.forest.desc" = "Natural green woodland style";
+
+// MARK: - Controller Settings
+"controller.title" = "Controllers";
+"controller.connected" = "Connected Controllers";
+"controller.noConnected" = "No controllers connected";
+"controller.refresh" = "Refresh";
+"controller.supported" = "Supports Xbox, PlayStation, Nintendo Switch Pro, and MFi controllers.";
+"controller.unknown" = "Unknown Controller";
+"controller.extended" = "Extended Gamepad";
+"controller.basic" = "Basic Controller";
+"controller.physical" = "Physical Controller";
+"controller.vibration" = "Vibration";
+"controller.hideVirtual" = "Hide Virtual When Connected";
+"controller.leftStickDPad" = "Left Stick as D-Pad";
+"controller.rightStickCamera" = "Right Stick for Camera";
+"controller.deadzone" = "Stick Deadzone";
+"controller.mapping" = "Button Mapping";
+"controller.virtual" = "Virtual Controller";
+"controller.opacity" = "Opacity";
+"controller.size" = "Size";
+"controller.showLabels" = "Show Button Labels";
+"controller.haptics" = "Haptic Feedback";
+"controller.autoHide" = "Auto-Hide When Idle";
+"controller.skin" = "Controller Skin";
+"controller.presets" = "Quick Presets";
+"controller.preset.compact" = "Compact (Small Hands)";
+"controller.preset.default" = "Default";
+"controller.preset.large" = "Large (Big Hands)";
+"controller.turbo" = "Turbo";
+"controller.turbo.settings" = "Turbo Settings";
+"controller.turbo.enable" = "Enable Turbo";
+"controller.turbo.speed" = "Turbo Speed";
+"controller.turbo.desc" = "Turbo mode rapidly presses buttons automatically.";
+"controller.turbo.buttons" = "Turbo Buttons";
+"controller.mapping.face" = "Face Buttons";
+"controller.mapping.dpad" = "D-Pad";
+"controller.mapping.shoulder" = "Shoulder Buttons";
+"controller.mapping.thumbstick" = "Thumbstick Buttons";
+"controller.mapping.system" = "System Buttons";
+"controller.mapping.reset" = "Reset to Default";
+"controller.mapping.press" = "Press a button...";
+"controller.mapping.notSet" = "Not Set";
+"controller.button.a" = "A Button";
+"controller.button.b" = "B Button";
+"controller.button.x" = "X Button";
+"controller.button.y" = "Y Button";
+"controller.button.up" = "D-Pad Up";
+"controller.button.down" = "D-Pad Down";
+"controller.button.left" = "D-Pad Left";
+"controller.button.right" = "D-Pad Right";
+"controller.button.l" = "L1 / L";
+"controller.button.r" = "R1 / R";
+"controller.button.l2" = "L2 / ZL";
+"controller.button.r2" = "R2 / ZR";
+"controller.button.l3" = "L3 (Left Stick)";
+"controller.button.r3" = "R3 (Right Stick)";
+"controller.button.start" = "Start / +";
+"controller.button.select" = "Select / -";
+
+// MARK: - External Display
+"display.title" = "External Display";
+"display.status" = "Connection Status";
+"display.status.desc" = "Connect via AirPlay, HDMI adapter, or USB-C to display games on TV.";
+"display.connected" = "External Display Connected";
+"display.notConnected" = "No External Display";
+"display.mode" = "Display Mode";
+"display.mode.gameOnly" = "Game Only";
+"display.mode.gameOnly.desc" = "Show only the game screen on TV";
+"display.mode.fullMirror" = "Full Mirror";
+"display.mode.fullMirror.desc" = "Mirror entire screen including controls";
+"display.mode.gameWithBorder" = "Game with Border";
+"display.mode.gameWithBorder.desc" = "Show game with decorative border";
+"display.options" = "Options";
+"display.showControlsOnDevice" = "Show Controls on Device";
+"display.scale" = "Display Scale";
+"display.tips" = "Connection Tips";
+"display.tip.airplay" = "AirPlay: Swipe down from top-right, tap Screen Mirroring";
+"display.tip.hdmi" = "HDMI: Use Lightning/USB-C to HDMI adapter";
+"display.tip.usbc" = "USB-C: Connect directly to compatible displays";
+
+// MARK: - BIOS Settings
+"settings.bios" = "BIOS Files";
+"settings.bios.manage" = "Manage BIOS";
+"settings.bios.ps1.missing" = "PS1 BIOS Missing";
+
+"bios.ps1.title" = "PlayStation (PS1)";
+"bios.ps1.footer" = "PS1 emulation requires official BIOS files. Install at least one region's BIOS to play games from that region. Installing all regions is recommended for best compatibility.";
+
+"bios.nds.title" = "Nintendo DS (NDS)";
+"bios.nds.footer" = "NDS uses built-in open source BIOS replacements. No additional configuration needed.";
+"bios.nds.builtin" = "Using built-in open source BIOS";
+
+"bios.import" = "Import BIOS Files";
+"bios.import.section" = "File Import";
+"bios.import.footer" = "Select BIOS files from Files app or iCloud Drive. File names must match standard names (e.g., scph5501.bin).";
+"bios.import.success" = "Successfully imported %d BIOS file(s)";
+"bios.import.partial" = "Successfully imported %d file(s). The following files failed:\n%@";
+"bios.directory" = "BIOS Directory";
+
+"bios.help.title" = "Help";
+"bios.help.whatIs" = "What is BIOS?";
+"bios.help.whatIs.content" = "BIOS (Basic Input/Output System) is the firmware program of a game console. Some emulators require original BIOS files to run games correctly. PlayStation emulators need official BIOS files, while NDS emulators can use open source alternatives.";
+"bios.help.whereToGet" = "How to get BIOS files?";
+"bios.help.whereToGet.content" = "Due to copyright restrictions, we cannot provide official BIOS files. You need to extract BIOS files from your own game console. There are many tutorials online explaining how to dump BIOS from physical hardware. Please ensure you legally own the corresponding console.";
+"bios.help.fileNames" = "BIOS File Names";
+"bios.help.fileNames.ps1" = "PS1 BIOS Files:";
+
+"bios.error.unknownFile" = "Unknown BIOS file. Please check the file name.";
+"bios.error.accessDenied" = "Cannot access the file. Please check file permissions.";
+"bios.error.copyFailed" = "Failed to copy file: %@";
+
+// BIOS Alert
+"bios.alert.title" = "BIOS File Required";
+"bios.alert.goToSettings" = "Go to Settings";
+"bios.alert.message.PS1" = "PlayStation games require official BIOS files. Please go to Settings to import BIOS files (e.g., scph5501.bin).";
+
+// MARK: - Pause Menu
+"pause.resume" = "Resume";
+"pause.save" = "Save";
+"pause.saveStates" = "Save States";
+"pause.screenshot" = "Screenshot";
+"pause.screenshot.saved" = "Screenshot saved";
+"pause.speed" = "Speed";
+"pause.speed.current" = "Speed: %@";
+"pause.cheats" = "Cheats";
+"pause.reset" = "Reset";
+"pause.info" = "Info";
+"pause.gameInfo" = "Game Info";
+"pause.skin" = "Skin";
+"pause.controllerSkin" = "Controller Skin";
+"pause.quit" = "Quit";
+
+// MARK: - BIOS File Names
+"bios.region.japan" = "Japan";
+"bios.region.usa" = "USA";
+"bios.region.europe" = "Europe";
+"bios.region.usa.old" = "USA (Old)";
+
+// MARK: - Import Help
+"import.help.button" = "Import Help";
+"import.help.nav.title" = "Import Help";
+"import.help.title" = "How to Import Games";
+"import.help.subtitle" = "Learn how to import ROM files into Yearn";
+"import.help.systems.title" = "Supported Systems";
+"import.help.methods.title" = "Import Methods";
+"import.help.method.files" = "Select Files";
+"import.help.method.files.desc" = "Choose one or more ROM files from the Files app";
+"import.help.method.folder" = "Select Folder";
+"import.help.method.folder.desc" = "Import all games from a folder at once";
+"import.help.method.icloud" = "iCloud Drive";
+"import.help.method.icloud.desc" = "Select ROM files from iCloud Drive";
+"import.help.method.airdrop" = "AirDrop";
+"import.help.method.airdrop.desc" = "Receive ROM files via AirDrop from other devices";
+"import.help.tips.title" = "Tips";
+"import.help.tip.1" = "Make sure ROM files have correct extensions (.nes, .sfc, .gba, etc.)";
+"import.help.tip.2" = "PS1 games require .bin/.cue, .iso, or .chd format";
+"import.help.tip.3" = "Games are automatically organized by system after import";
+"import.help.tip.4" = "You can manage imported games in Settings";
+"import.help.bios.title" = "BIOS Information";
+"import.help.bios.desc" = "PlayStation (PS1) games require BIOS files to run. Please import BIOS files in Settings > BIOS Files. Other platforms do not require additional BIOS files.";

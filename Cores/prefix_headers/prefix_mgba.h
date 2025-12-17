@@ -1,0 +1,26 @@
+// Symbol prefix for mgba core - AUTO GENERATED
+#define retro_init mgba_retro_init
+#define retro_deinit mgba_retro_deinit
+#define retro_api_version mgba_retro_api_version
+#define retro_get_system_info mgba_retro_get_system_info
+#define retro_get_system_av_info mgba_retro_get_system_av_info
+#define retro_set_environment mgba_retro_set_environment
+#define retro_set_video_refresh mgba_retro_set_video_refresh
+#define retro_set_audio_sample mgba_retro_set_audio_sample
+#define retro_set_audio_sample_batch mgba_retro_set_audio_sample_batch
+#define retro_set_input_poll mgba_retro_set_input_poll
+#define retro_set_input_state mgba_retro_set_input_state
+#define retro_reset mgba_retro_reset
+#define retro_run mgba_retro_run
+#define retro_load_game mgba_retro_load_game
+#define retro_load_game_special mgba_retro_load_game_special
+#define retro_unload_game mgba_retro_unload_game
+#define retro_serialize_size mgba_retro_serialize_size
+#define retro_serialize mgba_retro_serialize
+#define retro_unserialize mgba_retro_unserialize
+#define retro_get_memory_data mgba_retro_get_memory_data
+#define retro_get_memory_size mgba_retro_get_memory_size
+#define retro_get_region mgba_retro_get_region
+#define retro_cheat_reset mgba_retro_cheat_reset
+#define retro_cheat_set mgba_retro_cheat_set
+#define retro_set_controller_port_device mgba_retro_set_controller_port_device

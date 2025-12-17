@@ -1,0 +1,27 @@
+{
+  "object" : {
+    "artifacts" : [
+
+    ],
+    "dependencies" : [
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "yearncore",
+          "kind" : "fileSystem",
+          "location" : "/Users/ugreen/Desktop/work/Yearn/YearnCore",
+          "name" : "YearnCore"
+        },
+        "state" : {
+          "name" : "fileSystem",
+          "path" : "/Users/ugreen/Desktop/work/Yearn/YearnCore"
+        },
+        "subpath" : "yearncore"
+      }
+    ],
+    "prebuilts" : [
+
+    ]
+  },
+  "version" : 7
+}

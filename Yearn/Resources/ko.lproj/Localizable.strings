@@ -1,0 +1,629 @@
+/* 
+  Localizable.strings (한국어)
+  Yearn
+*/
+
+// MARK: - General
+"app.name" = "Yearn";
+"common.done" = "완료";
+"common.cancel" = "취소";
+"common.save" = "저장";
+"common.delete" = "삭제";
+"common.edit" = "편집";
+"common.ok" = "확인";
+"common.error" = "오류";
+"common.success" = "성공";
+"common.loading" = "로딩 중...";
+"common.search" = "검색";
+"common.settings" = "설정";
+"common.back" = "뒤로";
+"common.next" = "다음";
+"common.skip" = "건너뛰기";
+"common.retry" = "재시도";
+"common.close" = "닫기";
+"common.share" = "공유";
+"common.favorite" = "즐겨찾기";
+"common.unfavorite" = "즐겨찾기 해제";
+
+// MARK: - Tab Bar
+"tab.library" = "라이브러리";
+"tab.settings" = "설정";
+
+// MARK: - Library
+"library.title" = "게임 라이브러리";
+"library.empty.title" = "게임 없음";
+"library.empty.message" = "ROM 파일을 가져와서 플레이 시작";
+"library.import" = "ROM 가져오기";
+"library.import.folder" = "폴더 가져오기";
+"library.recent" = "최근 플레이";
+"library.favorites" = "즐겨찾기";
+"library.all" = "모든 게임";
+"library.search.placeholder" = "게임 검색...";
+"library.sort.name" = "이름";
+"library.sort.date" = "추가된 날짜";
+"library.sort.lastPlayed" = "마지막 플레이";
+"library.sort.system" = "시스템";
+"library.filter.all" = "모든 시스템";
+"library.game.play" = "플레이";
+"library.game.delete" = "게임 삭제";
+"library.game.delete.confirm" = "\"%@\"을(를) 삭제하시겠습니까? 이 작업은 취소할 수 없습니다.";
+"library.game.info" = "게임 정보";
+"library.game.cover" = "커버 변경";
+
+// MARK: - Game Systems
+"system.nes" = "닌텐도 엔터테인먼트 시스템";
+"system.nes.short" = "NES";
+"system.snes" = "슈퍼 닌텐도";
+"system.snes.short" = "SNES";
+"system.gb" = "게임보이";
+"system.gbc" = "게임보이 컬러";
+"system.gbc.short" = "GB/GBC";
+"system.gba" = "게임보이 어드밴스";
+"system.gba.short" = "GBA";
+"system.n64" = "닌텐도 64";
+"system.n64.short" = "N64";
+"system.nds" = "닌텐도 DS";
+"system.nds.short" = "NDS";
+"system.genesis" = "세가 제네시스 / 메가 드라이브";
+"system.genesis.short" = "Genesis";
+"system.ps1" = "플레이스테이션";
+"system.ps1.short" = "PS1";
+
+// MARK: - Emulation
+"emulation.pause" = "일시정지";
+"emulation.resume" = "계속";
+"emulation.reset" = "리셋";
+"emulation.quit" = "게임 종료";
+"emulation.quit.confirm" = "종료하시겠습니까? 저장하지 않은 진행 상황은 손실됩니다.";
+"emulation.saveState" = "상태 저장";
+"emulation.loadState" = "상태 불러오기";
+"emulation.quickSave" = "빠른 저장";
+"emulation.quickLoad" = "빠른 불러오기";
+"emulation.screenshot" = "스크린샷";
+"emulation.screenshot.saved" = "스크린샷 저장됨";
+"emulation.fastForward" = "빨리 감기";
+"emulation.slowMotion" = "슬로우 모션";
+"emulation.speed" = "속도";
+"emulation.cheats" = "치트";
+"emulation.rewind" = "되감기";
+
+// MARK: - Save States
+"saveStates.title" = "저장 상태";
+"saveStates.slot" = "슬롯 %d";
+"saveStates.quickSave" = "빠른 저장";
+"saveStates.empty" = "비어 있음";
+"saveStates.noStates" = "저장 상태 없음";
+"saveStates.noStates.message" = "나중에 계속하려면 진행 상황을 저장하세요";
+"saveStates.delete" = "저장 상태 삭제";
+"saveStates.delete.confirm" = "이 저장 상태를 삭제하시겠습니까?";
+"saveStates.load" = "불러오기";
+"saveStates.save" = "저장";
+
+// MARK: - Cheats
+"cheats.title" = "치트";
+"cheats.add" = "치트 추가";
+"cheats.edit" = "치트 편집";
+"cheats.name" = "이름";
+"cheats.code" = "코드";
+"cheats.format" = "형식";
+"cheats.enabled" = "활성화";
+"cheats.empty" = "치트 없음";
+"cheats.empty.message" = "치트 코드를 추가하여 게임 플레이 향상";
+"cheats.format.gameGenie" = "Game Genie";
+"cheats.format.actionReplay" = "Action Replay";
+"cheats.format.gameShark" = "GameShark";
+"cheats.format.codeBreaker" = "Code Breaker";
+"cheats.format.raw" = "Raw (주소:값)";
+"cheats.invalid" = "잘못된 치트 코드";
+
+// MARK: - Settings
+"settings.title" = "설정";
+"settings.appearance" = "모양";
+"settings.general" = "일반";
+"settings.display" = "디스플레이";
+"settings.audio" = "오디오";
+"settings.controls" = "컨트롤러";
+"settings.saves" = "저장";
+"settings.cores" = "에뮬레이터 코어";
+"settings.storage" = "저장 공간";
+"settings.about" = "정보";
+"settings.accessibility" = "손쉬운 사용";
+
+// MARK: - General Settings
+"settings.general.haptics" = "햅틱 피드백";
+"settings.general.haptics.desc" = "가상 버튼을 누를 때 촉각 피드백을 제공합니다.";
+"settings.general.keepAwake" = "화면 켜짐 유지";
+"settings.general.showFPS" = "FPS 카운터 표시";
+"settings.general.language" = "언어";
+"settings.general.language.system" = "시스템 설정 따르기";
+"language.available" = "사용 가능한 언어";
+"language.restart.hint" = "언어 변경을 적용하려면 앱을 다시 시작하세요.";
+"settings.general.language" = "언어";
+
+// MARK: - Display Settings
+"settings.display.filter" = "비디오 필터";
+"settings.display.filter.none" = "없음 (픽셀 퍼펙트)";
+"settings.display.filter.smooth" = "부드럽게";
+"settings.display.filter.crt" = "CRT";
+"settings.display.filter.lcd" = "LCD";
+"settings.display.aspectRatio" = "화면 비율";
+"settings.display.aspectRatio.native" = "원본";
+"settings.display.aspectRatio.fill" = "화면 채우기";
+"settings.display.aspectRatio.4:3" = "4:3";
+"settings.display.aspectRatio.16:9" = "16:9";
+
+// MARK: - Audio Settings
+"settings.audio.volume" = "볼륨";
+"settings.audio.mute" = "음소거";
+
+// MARK: - Controller Settings
+"settings.controls.title" = "컨트롤러 설정";
+"settings.controls.virtual" = "가상 컨트롤러";
+"settings.controls.opacity" = "불투명도";
+"settings.controls.size" = "크기";
+"settings.controls.haptics" = "햅틱 피드백";
+"settings.controls.labels" = "버튼 레이블 표시";
+"settings.controls.autoHide" = "유휴 시 자동 숨기기";
+"settings.controls.skin" = "컨트롤러 스킨";
+"settings.controls.vibration" = "진동";
+"settings.controls.mapping" = "버튼 매핑";
+"settings.controls.connected" = "연결된 컨트롤러";
+"settings.controls.noControllers" = "연결된 컨트롤러 없음";
+"settings.controls.turbo" = "터보 설정";
+"settings.controls.preset.compact" = "컴팩트 (작은 손)";
+"settings.controls.preset.default" = "기본";
+"settings.controls.preset.large" = "대형 (큰 손)";
+
+// MARK: - Controller Skins
+"skin.default" = "기본";
+"skin.minimal" = "미니멀";
+"skin.retro" = "레트로";
+"skin.neon" = "네온";
+"skin.classicNintendo" = "클래식 닌텐도";
+"skin.playStation" = "PlayStation";
+"skin.xbox" = "Xbox";
+"skin.transparent" = "투명";
+"skin.darkMode" = "다크 모드";
+"skin.custom" = "커스텀";
+"skin.create" = "커스텀 스킨 만들기";
+"skin.builtin" = "내장";
+"skin.category.standard" = "표준";
+"skin.category.themed" = "테마";
+"skin.category.special" = "특수";
+"skin.category.custom" = "커스텀 스킨";
+"skin.themed" = "테마";
+"skin.special" = "특별";
+
+// MARK: - Save Settings
+"settings.saves.autoSave" = "자동 저장";
+"settings.saves.autoSave.interval" = "자동 저장 간격";
+"settings.saves.autoSave.interval.30sec" = "30초";
+"settings.saves.autoSave.interval.1min" = "1분";
+"settings.saves.autoSave.interval.2min" = "2분";
+"settings.saves.autoSave.interval.5min" = "5분";
+"settings.saves.autoSave.interval.10min" = "10분";
+"settings.saves.icloud" = "iCloud 동기화";
+"settings.saves.icloud.description" = "기기 간 저장 동기화";
+
+// MARK: - Storage
+"settings.storage.used" = "사용된 저장 공간";
+"settings.storage.roms" = "ROM";
+"settings.storage.saves" = "저장 상태";
+"settings.storage.artwork" = "아트워크";
+"settings.storage.clearCache" = "캐시 지우기";
+"settings.storage.clearCache.confirm" = "캐시된 아트워크와 임시 파일을 삭제합니다.";
+
+// MARK: - About
+"settings.about.version" = "버전";
+"settings.about.licenses" = "오픈 소스 라이선스";
+"settings.about.sourceCode" = "소스 코드";
+"settings.about.rate" = "App Store에서 평가";
+"settings.about.contact" = "문의하기";
+
+// MARK: - Accessibility
+"settings.accessibility.reduceMotion" = "동작 줄이기";
+"settings.accessibility.highContrast" = "고대비";
+"settings.accessibility.largeButtons" = "큰 버튼";
+"settings.accessibility.buttonLabels" = "버튼 레이블 표시";
+"settings.accessibility.voiceOver" = "VoiceOver 힌트";
+"settings.accessibility.holdToConfirm" = "길게 눌러 확인";
+"settings.accessibility.autoHide" = "컨트롤러 자동 숨기기";
+"settings.accessibility.hideDelay" = "숨기기 지연";
+
+// MARK: - Speed
+"speed.title" = "에뮬레이션 속도";
+"speed.0.25x" = "0.25배 (느림)";
+"speed.0.5x" = "0.5배 (느림)";
+"speed.0.75x" = "0.75배";
+"speed.1x" = "1배 (정상)";
+"speed.1.5x" = "1.5배";
+"speed.2x" = "2배";
+"speed.3x" = "3배";
+"speed.4x" = "4배";
+"speed.8x" = "8배";
+"speed.unlimited" = "무제한";
+"speed.fastForward" = "빨리 감기 속도";
+"speed.slowMotion" = "슬로우 모션 속도";
+"speed.holdToFF" = "길게 눌러 빨리 감기";
+"speed.indicator" = "속도 표시기 표시";
+
+// MARK: - Turbo
+"turbo.title" = "터보 설정";
+"turbo.enable" = "터보 활성화";
+"turbo.speed" = "터보 속도";
+"turbo.speed.slow" = "느림 (10 Hz)";
+"turbo.speed.normal" = "보통 (20 Hz)";
+"turbo.speed.fast" = "빠름 (30 Hz)";
+"turbo.speed.veryFast" = "매우 빠름 (50 Hz)";
+"turbo.faceButtons" = "페이스 버튼";
+"turbo.shoulderButtons" = "숄더 버튼";
+"turbo.clearAll" = "모든 터보 지우기";
+
+// MARK: - Recording
+"recording.title" = "녹화";
+"recording.start" = "녹화 시작";
+"recording.stop" = "녹화 중지";
+"recording.saved" = "녹화 저장됨";
+"recording.saved.message" = "게임 플레이가 녹화되었습니다. 어떻게 하시겠습니까?";
+"recording.saveToPhotos" = "사진에 저장";
+"recording.discard" = "삭제";
+"recording.keepInApp" = "앱에 보관";
+"recording.settings" = "녹화 설정";
+"recording.includeAudio" = "게임 오디오 포함";
+"recording.includeMic" = "마이크 포함";
+"recording.quality" = "비디오 품질";
+"recording.quality.low" = "낮음 (480p)";
+"recording.quality.medium" = "보통 (720p)";
+"recording.quality.high" = "높음 (1080p)";
+"recording.list" = "저장된 녹화";
+"recording.noRecordings" = "녹화 없음";
+"recording.noRecordings.message" = "녹화된 게임 플레이가 여기에 표시됩니다.";
+
+// MARK: - Onboarding
+"onboarding.welcome.title" = "Yearn에 오신 것을 환영합니다";
+"onboarding.welcome.subtitle" = "당신의 레트로 게임 동반자";
+"onboarding.welcome.description" = "iOS 기기에서 NES, SNES, 게임보이, N64, 플레이스테이션 등의 클래식 게임을 플레이하세요.";
+"onboarding.import.title" = "게임 가져오기";
+"onboarding.import.subtitle" = "쉬운 ROM 관리";
+"onboarding.import.description" = "파일 앱, AirDrop 또는 클라우드 저장소에서 ROM 파일을 가져오세요. 시스템별로 자동 정리됩니다.";
+"onboarding.play.title" = "어디서나 플레이";
+"onboarding.play.subtitle" = "터치 또는 컨트롤러";
+"onboarding.play.description" = "화면 컨트롤러를 사용하거나 좋아하는 블루투스 게임패드를 연결하여 최고의 경험을 즐기세요.";
+"onboarding.save.title" = "진행 상황 저장";
+"onboarding.save.subtitle" = "게임을 잃지 마세요";
+"onboarding.save.description" = "저장 상태, 자동 저장, iCloud 동기화로 모든 기기에서 진행 상황을 안전하게 보관합니다.";
+"onboarding.ready.title" = "플레이 준비 완료";
+"onboarding.ready.subtitle" = "시작해 볼까요";
+"onboarding.ready.description" = "첫 번째 ROM을 가져와서 좋아하는 게임의 추억을 되살려 보세요.";
+"onboarding.getStarted" = "시작하기";
+
+// MARK: - Game Info
+"gameInfo.title" = "게임 정보";
+"gameInfo.description" = "설명";
+"gameInfo.details" = "세부 정보";
+"gameInfo.developer" = "개발사";
+"gameInfo.publisher" = "퍼블리셔";
+"gameInfo.releaseDate" = "출시일";
+"gameInfo.genre" = "장르";
+"gameInfo.players" = "플레이어";
+"gameInfo.region" = "지역";
+"gameInfo.fileInfo" = "파일 정보";
+"gameInfo.fileName" = "파일 이름";
+"gameInfo.fileSize" = "파일 크기";
+"gameInfo.extension" = "확장자";
+"gameInfo.crc32" = "CRC32";
+"gameInfo.search" = "게임 정보 검색";
+"gameInfo.searching" = "검색 중...";
+
+// MARK: - Cover
+"cover.title" = "게임 커버";
+"cover.change" = "탭하여 커버 변경";
+"cover.choosePhoto" = "사진에서 선택";
+"cover.searchOnline" = "온라인 검색";
+"cover.remove" = "커스텀 커버 제거";
+
+// MARK: - Statistics
+"stats.title" = "통계";
+"stats.totalGames" = "총 게임 수";
+"stats.totalPlayTime" = "총 플레이 시간";
+"stats.favoriteSystem" = "즐겨찾는 시스템";
+"stats.mostPlayed" = "가장 많이 플레이";
+"stats.recentlyPlayed" = "최근 플레이";
+"stats.overview" = "개요";
+"stats.gamesBySystem" = "시스템별 게임";
+"stats.recentActivity" = "최근 활동";
+"stats.storage" = "저장 공간";
+"stats.totalSize" = "총 크기";
+"stats.favorites" = "즐겨찾기";
+"stats.chartsRequireIOS17" = "차트는 iOS 17 이상이 필요합니다";
+"stats.noRecentGames" = "최근 플레이한 게임이 없습니다";
+"stats.calculating" = "계산 중...";
+"stats.roms" = "ROM";
+"stats.saveStates" = "세이브 스테이트";
+"stats.batterySaves" = "배터리 세이브";
+"stats.cores" = "코어";
+
+// MARK: - Errors
+"error.import.failed" = "게임 가져오기 실패";
+"error.import.unsupported" = "지원되지 않는 파일 형식";
+"error.core.notFound" = "에뮬레이터 코어를 찾을 수 없음";
+"error.core.loadFailed" = "에뮬레이터 코어 로드 실패";
+"error.game.loadFailed" = "게임 로드 실패";
+"error.save.failed" = "저장 실패";
+"error.load.failed" = "로드 실패";
+"error.network" = "네트워크 오류";
+"error.unknown" = "알 수 없는 오류가 발생했습니다";
+
+// MARK: - iPad
+"ipad.openNewWindow" = "새 창에서 열기";
+
+// MARK: - Time
+"time.hours" = "%d시간";
+"time.minutes" = "%d분";
+"time.seconds" = "%d초";
+"time.never" = "없음";
+"time.justNow" = "방금";
+
+// MARK: - Themes
+"theme.title" = "테마";
+"theme.current" = "현재 테마";
+"theme.system" = "시스템";
+"theme.gaming" = "게임 콘솔";
+"theme.styles" = "스타일";
+
+// Theme Names
+"theme.default" = "기본";
+"theme.default.desc" = "깔끔하고 현대적인 시스템 스타일";
+"theme.nintendo" = "닌텐도 클래식";
+"theme.nintendo.desc" = "클래식 패미컴/NES 스타일";
+"theme.snes" = "슈퍼 닌텐도";
+"theme.snes.desc" = "다채로운 SFC 버튼 스타일";
+"theme.gameboy" = "게임보이";
+"theme.gameboy.desc" = "클래식 녹색 모노크롬 디스플레이";
+"theme.playstation" = "PlayStation";
+"theme.playstation.desc" = "소니 PlayStation 다크 테마";
+"theme.xbox" = "Xbox";
+"theme.xbox.desc" = "마이크로소프트 Xbox 그린 테마";
+"theme.genesis" = "세가 제네시스";
+"theme.genesis.desc" = "세가 블루와 스피드 스타일";
+"theme.arcade" = "레트로 아케이드";
+"theme.arcade.desc" = "네온 조명과 어두운 캐비닛";
+"theme.cyberpunk" = "사이버펑크";
+"theme.cyberpunk.desc" = "미래적인 네온 사이버 스타일";
+"theme.pixel" = "픽셀 아트";
+"theme.pixel.desc" = "8비트 스타일 따뜻한 색상";
+"theme.midnight" = "미드나잇";
+"theme.midnight.desc" = "순수 다크 OLED 친화 테마";
+"theme.sunset" = "선셋";
+"theme.sunset.desc" = "따뜻한 그라데이션 일몰 색상";
+"theme.ocean" = "오션";
+"theme.ocean.desc" = "깊은 바다 블루 톤";
+"theme.forest" = "포레스트";
+"theme.forest.desc" = "자연스러운 녹색 삼림 스타일";
+
+
+// Additional keys
+"skin.builtin" = "내장 스킨";
+"settings.saves.desc" = "자동 저장은 주기적으로 백업을 생성합니다. iCloud 동기화로 기기 간 저장을 동기화할 수 있습니다.";
+"settings.storage.battery" = "배터리 저장";
+"settings.storage.total" = "총계";
+"settings.storage.clearAll" = "모든 데이터 삭제";
+"settings.storage.clearAll.confirm" = "모든 ROM, 저장 데이터, 설정이 삭제됩니다. 이 작업은 취소할 수 없습니다.";
+"settings.cores.manage" = "코어 관리";
+"settings.cores.scanning" = "코어 검색 중...";
+"settings.cores.notFound" = "코어를 찾을 수 없음";
+"settings.cores.notFound.desc" = "에뮬레이션을 활성화하려면 libretro 코어를 가져오세요.";
+"settings.cores.info" = "코어 정보";
+"settings.cores.core" = "코어";
+"settings.cores.status" = "상태";
+"settings.cores.ready" = "준비됨";
+"settings.cores.performance" = "성능";
+"settings.cores.frameSkip" = "프레임 스킵";
+"settings.cores.audioLatency" = "오디오 지연";
+"settings.cores.audioLatency.low" = "낮음 (32ms)";
+"settings.cores.audioLatency.medium" = "중간 (64ms)";
+"settings.cores.audioLatency.high" = "높음 (128ms)";
+"settings.cores.systemSpecific" = "시스템별 설정";
+"settings.cores.noAdditional" = "추가 설정 없음";
+"settings.cores.gbc.palette" = "색상 팔레트";
+"settings.cores.gbc.palette.default" = "기본";
+"settings.cores.gbc.palette.grayscale" = "그레이스케일";
+"settings.cores.gbc.palette.green" = "클래식 그린";
+"settings.cores.gbc.palette.brown" = "포켓 브라운";
+"settings.cores.nds.layout" = "화면 레이아웃";
+"settings.cores.nds.layout.vertical" = "수직";
+"settings.cores.nds.layout.vertical.desc" = "화면을 수직으로 배치";
+"settings.cores.nds.layout.horizontal" = "수평";
+"settings.cores.nds.layout.horizontal.desc" = "화면을 수평으로 배치";
+"settings.cores.nds.layout.single" = "단일 화면";
+"settings.cores.nds.layout.single.desc" = "한 번에 하나의 화면 표시";
+"settings.about.build" = "빌드";
+"settings.about.licenses.content" = "Yearn은 다음 오픈 소스 프로젝트를 사용합니다:\n\n• libretro API - MIT 라이선스\n• FCEUmm (NES/FC) - GPL v2\n• bsnes (SNES/SFC) - GPL v3\n• Gambatte (GB/GBC) - GPL v2\n• mGBA (GBA) - MPL 2.0\n• Mupen64Plus Next (N64) - GPL v2\n• melonDS (NDS) - GPL v3\n• ClownMDEmu (MD/Genesis) - AGPL v3\n• SwanStation (PS1) - GPL v3\n\n코어 프레임워크 (YearnCore)는 GPL v3 라이선스로 배포됩니다.\n\n전체 라이선스 텍스트는 소스 저장소를 참조하세요.";
+"settings.about.licenses.bios" = "내장 BIOS 파일";
+"settings.about.acknowledgements.thanks" = "특별 감사";
+"settings.about.acknowledgements.libretro" = "훌륭한 에뮬레이션 프레임워크를 만든 libretro 팀에 감사드립니다.";
+"settings.about.acknowledgements.cores" = "놀라운 작업을 한 모든 에뮬레이터 코어 개발자에게 감사드립니다.";
+"settings.about.acknowledgements.community" = "클래식 게임을 살아있게 하는 레트로 게임 커뮤니티에 감사드립니다.";
+"settings.about.acknowledgements.contributors" = "기여자";
+"settings.about.acknowledgements.contributors.desc" = "이 프로젝트는 오픈 소스입니다. 기여를 환영합니다!";
+"settings.controls.noControllers.desc" = "Bluetooth 또는 MFi 컨트롤러를 연결하여 Yearn에서 사용하세요.";
+"settings.controls.supported" = "PlayStation DualShock/DualSense, Xbox 컨트롤러, Nintendo Switch Pro 컨트롤러, MFi 인증 컨트롤러가 지원됩니다.";
+"language.restart.hint" = "언어가 즉시 적용됩니다.";
+
+// Library additional keys
+"library.sortBy" = "정렬";
+"library.viewMode" = "보기";
+"library.viewMode.grid" = "그리드";
+"library.viewMode.list" = "목록";
+"gameInfo.fileInfo" = "파일 정보";
+"gameInfo.system" = "시스템";
+"gameInfo.file" = "파일";
+"gameInfo.size" = "크기";
+"gameInfo.added" = "추가됨";
+"gameInfo.extensions" = "지원 확장자";
+
+// Theme additional
+"theme.preview.game" = "게임";
+
+// Controller Settings
+"controller.title" = "컨트롤러";
+"controller.connected" = "연결된 컨트롤러";
+"controller.noConnected" = "연결된 컨트롤러 없음";
+"controller.refresh" = "새로고침";
+"controller.supported" = "Xbox, PlayStation, Nintendo Switch Pro, MFi 컨트롤러를 지원합니다.";
+"controller.unknown" = "알 수 없는 컨트롤러";
+"controller.extended" = "확장 게임패드";
+"controller.basic" = "기본 컨트롤러";
+"controller.physical" = "물리 컨트롤러";
+"controller.vibration" = "진동";
+"controller.hideVirtual" = "연결 시 가상 숨기기";
+"controller.leftStickDPad" = "왼쪽 스틱을 D-Pad로 사용";
+"controller.rightStickCamera" = "오른쪽 스틱으로 카메라";
+"controller.deadzone" = "스틱 데드존";
+"controller.mapping" = "버튼 매핑";
+"controller.virtual" = "가상 컨트롤러";
+"controller.opacity" = "투명도";
+"controller.size" = "크기";
+"controller.showLabels" = "버튼 라벨 표시";
+"controller.haptics" = "햅틱 피드백";
+"controller.autoHide" = "유휴 시 자동 숨기기";
+"controller.skin" = "컨트롤러 스킨";
+"controller.presets" = "빠른 프리셋";
+"controller.preset.compact" = "컴팩트 (작은 손)";
+"controller.preset.default" = "기본";
+"controller.preset.large" = "대형 (큰 손)";
+"controller.turbo" = "연사";
+"controller.turbo.settings" = "연사 설정";
+"controller.turbo.enable" = "연사 활성화";
+"controller.turbo.speed" = "연사 속도";
+"controller.turbo.desc" = "연사 모드는 버튼을 자동으로 빠르게 누릅니다.";
+"controller.turbo.buttons" = "연사 버튼";
+"controller.mapping.face" = "페이스 버튼";
+"controller.mapping.dpad" = "D-Pad";
+"controller.mapping.shoulder" = "숄더 버튼";
+"controller.mapping.thumbstick" = "스틱 버튼";
+"controller.mapping.system" = "시스템 버튼";
+"controller.mapping.reset" = "기본값으로 재설정";
+"controller.mapping.press" = "버튼을 누르세요...";
+"controller.mapping.notSet" = "설정 안 됨";
+"controller.button.a" = "A 버튼";
+"controller.button.b" = "B 버튼";
+"controller.button.x" = "X 버튼";
+"controller.button.y" = "Y 버튼";
+"controller.button.up" = "D-Pad 위";
+"controller.button.down" = "D-Pad 아래";
+"controller.button.left" = "D-Pad 왼쪽";
+"controller.button.right" = "D-Pad 오른쪽";
+"controller.button.l" = "L1 / L";
+"controller.button.r" = "R1 / R";
+"controller.button.l2" = "L2 / ZL";
+"controller.button.r2" = "R2 / ZR";
+"controller.button.l3" = "L3 (왼쪽 스틱)";
+"controller.button.r3" = "R3 (오른쪽 스틱)";
+"controller.button.start" = "Start / +";
+"controller.button.select" = "Select / -";
+
+// MARK: - External Display
+"display.title" = "외부 디스플레이";
+"display.status" = "연결 상태";
+"display.status.desc" = "AirPlay, HDMI 어댑터 또는 USB-C로 TV에 게임을 표시합니다.";
+"display.connected" = "외부 디스플레이 연결됨";
+"display.notConnected" = "외부 디스플레이 없음";
+"display.mode" = "디스플레이 모드";
+"display.mode.gameOnly" = "게임만";
+"display.mode.gameOnly.desc" = "TV에 게임 화면만 표시";
+"display.mode.fullMirror" = "전체 미러링";
+"display.mode.fullMirror.desc" = "컨트롤러를 포함한 전체 화면 미러링";
+"display.mode.gameWithBorder" = "테두리 있는 게임";
+"display.mode.gameWithBorder.desc" = "장식 테두리와 함께 게임 표시";
+"display.options" = "옵션";
+"display.showControlsOnDevice" = "기기에 컨트롤러 표시";
+"display.scale" = "디스플레이 크기";
+"display.tips" = "연결 팁";
+"display.tip.airplay" = "AirPlay: 오른쪽 상단에서 아래로 스와이프하여 화면 미러링 탭";
+"display.tip.hdmi" = "HDMI: Lightning/USB-C to HDMI 어댑터 사용";
+"display.tip.usbc" = "USB-C: 호환 디스플레이에 직접 연결";
+
+// MARK: - BIOS Settings
+"settings.bios" = "BIOS 파일";
+"settings.bios.manage" = "BIOS 관리";
+"settings.bios.ps1.missing" = "PS1 BIOS 없음";
+
+"bios.ps1.title" = "PlayStation (PS1)";
+"bios.ps1.footer" = "PS1 에뮬레이션에는 공식 BIOS 파일이 필요합니다. 해당 지역의 게임을 플레이하려면 최소 하나의 지역 BIOS를 설치하세요. 최상의 호환성을 위해 모든 지역을 설치하는 것이 좋습니다.";
+
+"bios.nds.title" = "Nintendo DS (NDS)";
+"bios.nds.footer" = "NDS는 내장 오픈 소스 BIOS 대체품을 사용합니다. 추가 구성이 필요하지 않습니다.";
+"bios.nds.builtin" = "내장 오픈 소스 BIOS 사용 중";
+
+"bios.import" = "BIOS 파일 가져오기";
+"bios.import.section" = "파일 가져오기";
+"bios.import.footer" = "파일 앱 또는 iCloud Drive에서 BIOS 파일을 선택하세요. 파일 이름은 표준 이름과 일치해야 합니다(예: scph5501.bin).";
+"bios.import.success" = "%d개의 BIOS 파일을 성공적으로 가져왔습니다";
+"bios.import.partial" = "%d개의 파일을 가져왔습니다. 다음 파일이 실패했습니다:\n%@";
+"bios.directory" = "BIOS 디렉토리";
+
+"bios.help.title" = "도움말";
+"bios.help.whatIs" = "BIOS란?";
+"bios.help.whatIs.content" = "BIOS(기본 입출력 시스템)는 게임 콘솔의 펌웨어 프로그램입니다. 일부 에뮬레이터는 게임을 올바르게 실행하려면 원본 BIOS 파일이 필요합니다. PlayStation 에뮬레이터는 공식 BIOS 파일이 필요하지만, NDS 에뮬레이터는 오픈 소스 대안을 사용할 수 있습니다.";
+"bios.help.whereToGet" = "BIOS 파일을 어떻게 얻나요?";
+"bios.help.whereToGet.content" = "저작권 제한으로 인해 공식 BIOS 파일을 제공할 수 없습니다. 자신의 게임 콘솔에서 BIOS 파일을 추출해야 합니다. 물리적 하드웨어에서 BIOS를 덤프하는 방법을 설명하는 온라인 튜토리얼이 많이 있습니다. 해당 콘솔을 합법적으로 소유하고 있는지 확인하세요.";
+"bios.help.fileNames" = "BIOS 파일 이름";
+"bios.help.fileNames.ps1" = "PS1 BIOS 파일:";
+
+"bios.error.unknownFile" = "알 수 없는 BIOS 파일입니다. 파일 이름을 확인하세요.";
+"bios.error.accessDenied" = "파일에 접근할 수 없습니다. 파일 권한을 확인하세요.";
+"bios.error.copyFailed" = "파일 복사 실패: %@";
+
+// BIOS Alert
+"bios.alert.title" = "BIOS 파일 필요";
+"bios.alert.goToSettings" = "설정으로 이동";
+"bios.alert.message.PS1" = "PlayStation 게임에는 공식 BIOS 파일이 필요합니다. 설정에서 BIOS 파일(예: scph5501.bin)을 가져오세요.";
+
+// MARK: - Pause Menu
+"pause.resume" = "계속";
+"pause.save" = "저장";
+"pause.saveStates" = "저장 상태";
+"pause.screenshot" = "스크린샷";
+"pause.screenshot.saved" = "스크린샷 저장됨";
+"pause.speed" = "속도";
+"pause.speed.current" = "속도: %@";
+"pause.cheats" = "치트";
+"pause.reset" = "리셋";
+"pause.info" = "정보";
+"pause.gameInfo" = "게임 정보";
+"pause.skin" = "스킨";
+"pause.controllerSkin" = "컨트롤러 스킨";
+"pause.quit" = "종료";
+
+// MARK: - BIOS File Names
+"bios.region.japan" = "일본";
+"bios.region.usa" = "미국";
+"bios.region.europe" = "유럽";
+"bios.region.usa.old" = "미국 (구버전)";
+
+// MARK: - Display Settings
+"settings.display.gameScale" = "게임 화면 크기";
+
+// MARK: - Import Help
+"import.help.button" = "가져오기 도움말";
+"import.help.nav.title" = "가져오기 도움말";
+"import.help.title" = "게임 가져오는 방법";
+"import.help.subtitle" = "Yearn에 ROM 파일을 가져오는 방법 알아보기";
+"import.help.systems.title" = "지원 시스템";
+"import.help.methods.title" = "가져오기 방법";
+"import.help.method.files" = "파일 선택";
+"import.help.method.files.desc" = "파일 앱에서 하나 이상의 ROM 파일 선택";
+"import.help.method.folder" = "폴더 선택";
+"import.help.method.folder.desc" = "폴더의 모든 게임을 한 번에 가져오기";
+"import.help.method.icloud" = "iCloud Drive";
+"import.help.method.icloud.desc" = "iCloud Drive에서 ROM 파일 선택";
+"import.help.method.airdrop" = "AirDrop";
+"import.help.method.airdrop.desc" = "다른 기기에서 AirDrop으로 ROM 파일 받기";
+"import.help.tips.title" = "팁";
+"import.help.tip.1" = "ROM 파일 확장자가 올바른지 확인하세요 (.nes, .sfc, .gba 등)";
+"import.help.tip.2" = "PS1 게임은 .bin/.cue, .iso 또는 .chd 형식 필요";
+"import.help.tip.3" = "가져온 후 게임은 시스템별로 자동 정리됩니다";
+"import.help.tip.4" = "설정에서 가져온 게임을 관리할 수 있습니다";
+"import.help.bios.title" = "BIOS 정보";
+"import.help.bios.desc" = "PlayStation (PS1) 게임을 실행하려면 BIOS 파일이 필요합니다. 설정 > BIOS 파일에서 BIOS를 가져오세요. 다른 플랫폼은 추가 BIOS 파일이 필요하지 않습니다.";
